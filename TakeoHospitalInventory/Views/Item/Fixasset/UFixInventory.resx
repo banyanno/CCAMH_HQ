@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ToolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH5SURBVGhD7ZoxS1xBFIWPYTWCpBAWgouN/oN0CWn8AxaW
+        plArY+FviI1FmiDYhFQhKmy6gLCBVCGri4IWKdxK/AlJil0QIqjnylkQ9o371lmdV9wPLrN7587MOfve
+        PN7jLRwnEVfA0B4wnip+AGOScj84yew+8JtxVYA4rwM7v4AJycsHTXzoTPINuGT7N2G0GTdafgJ/2L6S
+        zLuhiTkNbPHzwgkwoq5k2JGglqp0nTGeqSsMBx3ZAA5cVKoQcK8+oaaGtL1VOhsr3gX+s/jiGBhWujBQ
+        14oZ4X75qFQ2PAdHrZDRUqpQ0MC89G0plY0beSSSGeF8Jc5VYVtWKopkRhrAC5vProRKReFGYnEjAdxI
+        LG4kgBuJxY0EGKgR1pRMYM7oLNzM6MsMPmtMa6kuBmqEfRXVPEhQbE1LdTHoI1K2UyVPcJ6m5mtn9WcF
+        aze0VBe+R2JxIwHcSCxuJIAbicWNBHAjsdgNIBevcb7gbUc/JDMyaNxI0cht5DvwVIVtpQoF99wb6fui
+        VBgW/bPiA+C5UoWBut7JyHulwvDwfbViuq/aGyylk8NL+BR13fzI1DajdJhDYJLF9jbVHjvrHLTKWE4Z
+        1LLW0cTv25LaGxa/pIlTG1ikoK7PbHu/0b2N/eOAg5Y4eJPtp5RBDev8YV9LmuM4fQNcA8l2UX1IvytR
+        AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="BtnUpdateFixAsset.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH7SURBVEhL7ZY9S5xBFIWPilUU/4DEgEuIoFiIkjKFEiGx
+        tI5V6giCVdAgiSEIFhHsTBEVkYCFRfAravwCSeFHI/kVCvbmOW9GXdxl1XcnawoPHGbunTv3zNy9O7u6
+        x53hl1S5JrWuSu0x6FzOGdLnhwN+SIsEf4D9kTjMARYKiq9LbQR+CmY0IDxC3tZg5oKAZ3AwmNHgnM4d
+        zFx4cUX6yphhrKfsz2PMoXMWFmbD6JJUY25ID2PMnfNaYXg3pf5vhN3pJv4q2HNDZsL2BNi3F8Z+Glha
+        4RhIJXxf6qugGq94DjvOpPLgykEq4fNSb0rVCLzOJrGdP6WXzE95nQ4YB/xwhK0XSCWMnZR6QXpA4u5s
+        4u+clSqWpcO9v+td8BD/u7A9gXPCuKU2LMSz+ALRL8xnqNB7xrdhOZ1woVKblLjZPwTs24eT3sPnXcba
+        Z+xe284J45Xa5KYtjmM+xOc9blHbHtk3BnthhvUG+/OCgFSlPgfJXYWJ7A7H9j+Qi7LnRbHCRj5xcn4s
+        KB5D2LA4eabc8bZD2SfxzycBV2FhFjcZfcJi+CjcfNrijE30wjb+I+bfg9wl3LlulmJJl9c5H0J98Bs+
+        i9ZuSU8YT1hPuv2fApE5+JubNsAdOv8x4pyhBEB4HtHjbb5WvjnEVSLwCL2h5LscYGlVavwDe8SOs+jU
+        NJ4AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="BtnDeleteAsset.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGLSURBVGhD7dm9SsNQGMbxB0dB7KAObnobjt6AoKPehB9j
+        BfGO3FTqt4PiIHRRcHcXXESIT+B9IJRSkvZ8yvlDSHIOTc6vLYVQlEql0v+oAuZugONHYMWGonUFbHPb
+        tNNuXQN9Qipuw5gYrmPnDPjh/vsWWLPh9l0Ci3zxU43h/v0BWLWpYPG+e7z/r72h+zbcvZgYZwgVA+Mc
+        oUJiRhAHNuyuEBjvCOUTEwyhfGCCI5RLTDSEcoGJjlCzYJJBqGkwySEUF9Zri+H8bpII1QaTPEJNwmSD
+        UOMw2SFUE3MOfGaJUDWGC/8wQMWHohObyquRr1Prn+akaiJ43Ofz9nN2mBHEoY31ssKMQ6gmhttbsphJ
+        CJU8pg1CJYvpglDJYaZBqGQwsyBUdIwLhIqGcYlQwTE+ECoYxidCeceEQChvmJAI5RwTA6GcYXihrfqf
+        IrvQqQ0H7Q5Y5r2HtoZXrmnJptrHd2PjAvjii49sKEr6ZLgfvADzNtyte2DdDqNWfzL8ai3YaalUKmUf
+        8AdAorKtOBs4WAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ViewAsset.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM9SURBVEhL7ZbLS1VRFMZXZWWDHt7eloPUHuSgJqU2qElE
+        NDGx/gEVMzIwekpBBVr0hxRUkNSgHBh282qZIkVW8ybNggjCmf2+zTrH9J6j94o08oPF3udba3177X3W
+        3ffYEubDW7PNQ2aHcmYNMs3FuXtxMWC2bdCsh4VyWC/zB4wXZT7vxQaZdyvW0xaOMbOViHUhmmNsRLR0
+        2CyjHTJWw1f5PCOfYhQLd53nEpcpDhzhFoT6sLYps+WI70D0RNasAq6SotbLNBcnn2IUy7wde1X0K9Ci
+        JA0jdFjPiLQGRwGgkBaN5NdKo+DFX5qtJrkfO0ABR0fMNrqrYHDMm5RLwQelJU13pYPgm1HVWnQh70o5
+        UcFotWE3giMNvKvtqpD3tIwCzjsdY8JsFXw7caOMP90+ktOpRvSwGNKQFv6stJ3OBwF3CW4gaJdTMdQ4
+        +Md5Z58Zm7Ea5vsZWxi/MY68M9vq4TGkhU/dftupfBCQVeUEnXIqQD8VuE/YQ+3a6RjeFz1J/SAt/1lS
+        QwIIKMceK5mICqcD4C9hE0mLzgdpSZOFn7KB/MuFLjyiqtWRs4+a51F8zf6YCo68lgK/YFVOhaOWJtw9
+        rN7paUA2Id7xxmy3LgZxCJ2EU1dOYnewsyE4AfjqWOAXOlPYd3qiWjzcBmnC6YptCsH/gh2fIfkCzips
+        rTgdDXPtQGI/iNkXghNA7nHscp/ZHxVIfNjde7N1PFdiHXCJC8dHrQqdNnUqCQPYXqdSQUwrRso0OLU9
+        ftT30a9zeho4UpurEKizydfptDsVIC2OPcOiyc0l4MziLKXK007F8M7sTupsv1ge4R+f7YdrZOE1+DnI
+        FBAULhDey06nYqha7+6vWDPF6fKowVrImcDGsHIPj6EdEzP3BeLvIvfEbAVj3j+SXwSdisF+Y5MU8AGu
+        LeXKbEWzBP8QVuZ0Mgi4FS2q41VicBQB5ShXc/TOYV3BMRd8ty/YyTF1eiRQDPzk6qWBPZemu+YGC874
+        EKDi8DdZCKJY8ov7EIigxRH5v58+EdQwCFzDBlig0I89xV5ZSG/kAaEyFcD4mvEZ4+zPW3H9jFcV62mL
+        CzUOr2HGB704dy8hBWZ/AUhUadSfryn3AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="BtnNewCheckAsset.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI+SURBVEhL7Za9S1VxGMe/+Z5JhRmKUCoUheRLShmR3KWg
+        IWhJhBaXoC2npoZG2xqjrSEXB8MlUQl71YKgLgRlS2N/Rejne3zO5abZIa5HGu4XHn6/5/V7nnOe3+9e
+        VbHnWJFaX0uFN9LlPMS1zRF0m/go1b+VvuOcY53JQ6L22rJUF7TSO6kLYzHU3GAOc4UqrUrdr6RPoeYG
+        c5gr1Crx7oFpnuCbngk1m5jgs0zhAsOwtJPgfzoj1bKfDdvdNBe5A+kktuIH6UhSFGQSc7yaSRz+m0Dc
+        61jOZp918o9Zfy8dhHDVpBydNttSZBJXiudSIw+0P9QScic2fFHQ9RPexqUwZROTMEriL9b1f5DHzuUT
+        FNjPegbSOUiKglw7Xpf2QfgI8unfrkeQK3E5TOwHCTWb2D8aPhbpBFvoop8iNXTSWW5PhRrtaS6ELUgb
+        sZ+R0aQoyCRmIs+TsPXsLkJwnPXBFnsq95zLA198KX1DLxI/mRQMZBJXCghvQnwr1BJyJ94J/ycxr+i6
+        bx2+1Wle2YAnk/0N+xiwax4cvuFJfMMeNtax8F1lsA5Rp8cz4mmm1rh9xFzB1ppF7Hv2FMG+5O9D1EHR
+        r+Fb9sMgt9lP4TvM/kf45okbQZ9g/xBfE+vP8D3DV9hGTEelvz7sz7lL9E7b40IYsY/EoS9SA8nt7sw2
+        iC54JX7QZMQepbsT5T5s/f7hMYdr2pbAZw/jGoEvWP90VCoW1/Yxc1NBu4kF6QDObRfDboo5gq6KvYK0
+        AXeIouv+wdreAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="BtnFindAsset.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHUSURBVEhL7VY9SwMxAO3kpkupW5tL0lKsiIogKHVT0KGL
+        LoL+BXERBXERqTiI0kmcXUSU++gHFQfBwUknN3cX8QNEUEGoLzWKzSXKDcVS+uBxTfPyXr4ul5BH6bYX
+        ibx5jFVMdBm7h24q9Aegze6Fw69qe4WPLqWzQvwO00whkWAmQrOJcE/6GyFMHcamdR5fROgqeCrElQIh
+        fbKtFhAuu5ZVlEUjvGj0KU/piCxq4XI+h0Gc/W9wiZB+PNMOpaMq0amuoMEe50M6L5vSHnXE41jnu0PG
+        HlSiwXmQYLFfnFjsVutFyFVjTHUrWEUr2ITmCz5irFP3fqLuQujqFnyQSrWpp5Ggzfmw0NUt2Ekm23Ey
+        bfhoWQtCV7fgUjzegaBdlahfE7rm21yyaEQrWIfGCC4SMmEz9iJ+q8St4TJIMHZ5BgfNs9aLkGvfiMW1
+        pMD5gI+WRYKOGObdOi83FqM1wWAa5jn1/awSh0OQYGjHYLyl9WJspSZY9BLPdVT6TiXck+eDBBcRDK+s
+        zguBi76plm21CDrVsqhFAwR/rksOhaVfWIZmX7Y1AoO4gW5H0/6b0LjVQaCHM1jHY/xxYiI+fXbesnql
+        vxEwngTLOo8fdPOUDn4Ay0Fym9luPZQAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="GridFixAsset_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="FIX_ASS_ID"&gt;&lt;Caption&gt;FIX_ASS_ID&lt;/Caption&gt;&lt;DataMember&gt;FIX_ASS_ID&lt;/DataMember&gt;&lt;Key&gt;FIX_ASS_ID&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="ASSET_STATUS"&gt;&lt;Caption&gt;Status&lt;/Caption&gt;&lt;DataMember&gt;ASSET_STATUS&lt;/DataMember&gt;&lt;Key&gt;ASSET_STATUS&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;/Column1&gt;&lt;Column2 ID="DEP_ID"&gt;&lt;Caption&gt;DEP_ID&lt;/Caption&gt;&lt;DataMember&gt;DEP_ID&lt;/DataMember&gt;&lt;Key&gt;DEP_ID&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column2&gt;&lt;Column3 ID="ASSET_CATE_NAME"&gt;&lt;Caption&gt;Asset Category&lt;/Caption&gt;&lt;DataMember&gt;ASSET_CATE_NAME&lt;/DataMember&gt;&lt;Key&gt;ASSET_CATE_NAME&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;122&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="PRODUCT_CODE"&gt;&lt;Caption&gt;Asset Code&lt;/Caption&gt;&lt;DataMember&gt;PRODUCT_CODE&lt;/DataMember&gt;&lt;Key&gt;PRODUCT_CODE&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Width&gt;213&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="DATE_BUY"&gt;&lt;Caption&gt;Date of Purchase&lt;/Caption&gt;&lt;DataMember&gt;DATE_BUY&lt;/DataMember&gt;&lt;FormatString&gt;dd-MM-yyyy&lt;/FormatString&gt;&lt;Key&gt;DATE_BUY&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Width&gt;143&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="PRODUCT_NAME"&gt;&lt;Caption&gt;Desc of item&lt;/Caption&gt;&lt;DataMember&gt;PRODUCT_NAME&lt;/DataMember&gt;&lt;Key&gt;PRODUCT_NAME&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Width&gt;185&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="ASSET_MODEL"&gt;&lt;Caption&gt;Model/Serial&lt;/Caption&gt;&lt;DataMember&gt;ASSET_MODEL&lt;/DataMember&gt;&lt;Key&gt;ASSET_MODEL&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;/Column7&gt;&lt;Column8 ID="DEP_NAME"&gt;&lt;Caption&gt;Location&lt;/Caption&gt;&lt;DataMember&gt;DEP_NAME&lt;/DataMember&gt;&lt;Key&gt;DEP_NAME&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Width&gt;149&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="ASSET_USER"&gt;&lt;Caption&gt;User&lt;/Caption&gt;&lt;DataMember&gt;ASSET_USER&lt;/DataMember&gt;&lt;Key&gt;ASSET_USER&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;/Column9&gt;&lt;Column10 ID="ASSET_DONOR"&gt;&lt;Caption&gt;Donor&lt;/Caption&gt;&lt;DataMember&gt;ASSET_DONOR&lt;/DataMember&gt;&lt;Key&gt;ASSET_DONOR&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;/Column10&gt;&lt;Column11 ID="ASSET_QTY"&gt;&lt;Caption&gt;Qty&lt;/Caption&gt;&lt;DataMember&gt;ASSET_QTY&lt;/DataMember&gt;&lt;Key&gt;ASSET_QTY&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;/Column11&gt;&lt;Column12 ID="PRODUCT_PRICE"&gt;&lt;Caption&gt;Cost&lt;/Caption&gt;&lt;DataMember&gt;PRODUCT_PRICE&lt;/DataMember&gt;&lt;Key&gt;PRODUCT_PRICE&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Width&gt;151&lt;/Width&gt;&lt;/Column12&gt;&lt;Column13 ID="BUYER"&gt;&lt;Caption&gt;Buyer&lt;/Caption&gt;&lt;DataMember&gt;BUYER&lt;/DataMember&gt;&lt;Key&gt;BUYER&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column13&gt;&lt;Column14 ID="DESCRIPTION"&gt;&lt;Caption&gt;Remarks&lt;/Caption&gt;&lt;DataMember&gt;DESCRIPTION&lt;/DataMember&gt;&lt;Key&gt;DESCRIPTION&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;Width&gt;299&lt;/Width&gt;&lt;/Column14&gt;&lt;Column15 ID="DATE_DISPOSAL"&gt;&lt;Caption&gt;Date Disposal&lt;/Caption&gt;&lt;DataMember&gt;DATE_DISPOSAL&lt;/DataMember&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;Key&gt;DATE_DISPOSAL&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;/Column15&gt;&lt;Column16 ID="IS_DEL"&gt;&lt;Caption&gt;IS_DEL&lt;/Caption&gt;&lt;DataMember&gt;IS_DEL&lt;/DataMember&gt;&lt;Key&gt;IS_DEL&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column16&gt;&lt;Column17 ID="ASSET_CATE_ID"&gt;&lt;Caption&gt;ASSET_CATE_ID&lt;/Caption&gt;&lt;DataMember&gt;ASSET_CATE_ID&lt;/DataMember&gt;&lt;Key&gt;ASSET_CATE_ID&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column17&gt;&lt;/Columns&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="DISPOSAL"&gt;&lt;ColIndex&gt;1&lt;/ColIndex&gt;&lt;FormatStyle&gt;&lt;BackColor&gt;255, 192, 192&lt;/BackColor&gt;&lt;/FormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;BackColor&gt;255, 192, 192&lt;/BackColor&gt;&lt;/PreviewRowFormatStyle&gt;&lt;Value1&gt;DISPOSAL&lt;/Value1&gt;&lt;Value2&gt;DISPOSAL&lt;/Value2&gt;&lt;Key&gt;DISPOSAL&lt;/Key&gt;&lt;/Condition0&gt;&lt;/FormatConditions&gt;&lt;GridLineStyle&gt;Solid&lt;/GridLineStyle&gt;&lt;GroupCondition /&gt;&lt;Groups Collection="true" ElementName="Group"&gt;&lt;Group0 ID="Group0"&gt;&lt;ColIndex&gt;3&lt;/ColIndex&gt;&lt;/Group0&gt;&lt;/Groups&gt;&lt;RowHeaders&gt;True&lt;/RowHeaders&gt;&lt;RowHeaderContent&gt;RowPosition&lt;/RowHeaderContent&gt;&lt;RowHeaderWidth&gt;90&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;30&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="GridAssetCheck_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ASS_CHECK_ID"&gt;&lt;Caption&gt;ASS_CHECK_ID&lt;/Caption&gt;&lt;DataMember&gt;ASS_CHECK_ID&lt;/DataMember&gt;&lt;Key&gt;ASS_CHECK_ID&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="FIX_ID"&gt;&lt;Caption&gt;FIX_ID&lt;/Caption&gt;&lt;DataMember&gt;FIX_ID&lt;/DataMember&gt;&lt;Key&gt;FIX_ID&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column1&gt;&lt;Column2 ID="DATE_CHECK"&gt;&lt;Caption&gt;Date Check&lt;/Caption&gt;&lt;DataMember&gt;DATE_CHECK&lt;/DataMember&gt;&lt;FormatString&gt;dd - MM - yyyy&lt;/FormatString&gt;&lt;Key&gt;DATE_CHECK&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;208&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="CHECK_DESCRIPTION"&gt;&lt;Caption&gt;Check Note&lt;/Caption&gt;&lt;DataMember&gt;CHECK_DESCRIPTION&lt;/DataMember&gt;&lt;Key&gt;CHECK_DESCRIPTION&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;457&lt;/Width&gt;&lt;/Column3&gt;&lt;/Columns&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;GridLineStyle&gt;Solid&lt;/GridLineStyle&gt;&lt;GroupCondition /&gt;&lt;RowHeaders&gt;True&lt;/RowHeaders&gt;&lt;RowHeaderContent&gt;RowPosition&lt;/RowHeaderContent&gt;&lt;RowHeaderWidth&gt;80&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;30&lt;/RowHeight&gt;&lt;HeaderFormatStyle&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/HeaderFormatStyle&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="Error1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>124, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>60</value>
+  </metadata>
+</root>

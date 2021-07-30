@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ImageAddItem.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>166, 17</value>
+  </metadata>
+  <data name="ImageAddItem.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABg
+        EQAAAk1TRnQBSQFMAgEBBAEAAeQBAQHkAQEBEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABIAMAAQEBAAEgBgABIP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8AegABgQHPAYEB/wGB
+        AdABgQH/AYEBygGBAf8BgQHEAYEB/wFKAkkBiRcAAQEDBAEFAwsBDwMSBBkBIwMeASsDIwEzAyYBOQMo
+        AT0DJgE5ASICIQExAx0BKQMYASEDEQEXAwoBDQMCAQMDAAEBAw4BEwMdASkDHgErAx4BKwMeASsBVQJT
+        Aa0DHgErAx4BKwMeASsDHgErAx4BKwMeASsDHAEnAwgBCwMAAQFYAAEKAcIBGQH/AQYBugETAf8BAwGu
+        AQwB/wEDAaIBBgH/AQ4BsAEcAf8XAAEBAwABAQMAAQEBTgJNAZUDAAEBAwABAQMAAQEDAAEBAwABAQMA
+        AQEDAAEBAwABAQFAAj8BbwMEAQUDAAEBAwABAQMFAQcB9QHgAckB/wH1AeAByQH/AfUB4AHJAf8B9QHg
+        AckB/wH1AeAByQH/Ab4BugG3Af8BmgG2AeEB/wGkAa4BvQH/AfUB4AHJAf8B9QHgAckB/wH1AeAByQH/
+        AfUB4AHJAf8B9QHgAckB/wH0Ad8BxgH/AwABAVgAARQBzQEnAf8BDQHGAR8B/wEGAboBFQH/AQMBsQEM
+        Af8BDgGwARwB/xcAAQEDAAEBAVICUQGhAgMBzAH/A1gB7wMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQFC
+        AkEBcwIDAc0B/wFtAlEB9wMEAQUDAAEBAwUBBxT/AfcB6QHZAf8BuAHOAeoB/wEhAb8B5AH/ATUBwAHe
+        Ef8B/gH9AfsB/wMAAQFYAAEkAdcBRAH/ARoBzwEtAf8BEAHHASAB/wEHAbwBFQH/AQ4BsAEcAf8XAAEB
+        AwcBCQIDAcYB/wIDAcYB/wIDAccB/wNYAe8DAAEBAwABAQMAAQEDAAEBAUICQQFzAgMBxwH/AgMBxwH/
+        AgMBxwH/AUACPwFvAwABAQMEAQUU/wH4AeoB2QH/AcwB7gH3Af8BgQHdAfQB/wEDAcEB5QH/ATYBvwHe
+        Df8B/gH9AfsB/wMAAQFYAAE0Ad4BgQH/ASwB2gGBAf8BHAHRATQB/wEQAcgBIgH/AQ4BsAEcAf8XAAEB
+        AwABAQMKAQ0CAwHBAf8CAwHBAf8CAwHBAf8DWAHvAwABAQMAAQEBQgJBAXMCAwHBAf8CAwHBAf8CAwHB
+        Af8BQgJBAXMDAAEBAwABAQMEAQUU/wH4AeoB2QX/AcYB8AH4Af8BgQHdAfQB/wEDAcAB5QH/ATYBvAHc
+        Cf8B/gH9AfsB/wMAAQEDEwEaAQ4BsAEcAf8BDgGwARwB/wEOAbABHAH/AQ4BsAEcAf8BDgGwARwB/wEO
+        AbABHAH/AQ4BsAEcAf8BDgGwARwB/wEOAbABHAH/AQ4BsAEcAf8BDgGwARwB/wEOAbABHAH/AQ4BsAEc
+        Af8BDgGwARwB/wFKAkkBiQMTARoBDgGwARwB/wEOAbABHAH/AQ4BsAEcAf8BDgGwARwB/wEOAbABHAH/
+        AUMB4gGBAf8BOwHhAYEB/wEsAdoBgQH/AR4B1AE1Af8BDgGwARwB/wEOAbABHAH/AQ4BsAEcAf8BDgGw
+        ARwB/wEOAbABHAH/AUoCSQGJAwABAQMAAQEDAAEBAwoBDQIDAbsB/wIDAbsB/wIDAbsB/wNYAe8BQgJB
+        AXMCAwG7Af8CAwG7Af8CAwG7Af8BQgJBAXMDAAEBAwABAQMAAQEDBAEFBP8B3QHVAcsB/wHdAdUBywH/
+        Ad0B1QHLAf8B6gHlAd8B/wH4AeoB2QH/AfMB8AHtAf8B7QHqAeUB/wG4Ad4B4QH/AYEB4QH1Af8BAwHE
+        AeYB/wE0AbUB2AH/Ae4B6wHmAf8B/gH9AfsB/wMAAQEBBgGSAQoB/wFHAdoBgQH/AYEB4AGBAf8BgQHm
+        AYEB/wGBAeQBgQH/AUcB4wGBAf8BSgHkAYEB/wFKAeQBgQH/ATsB4QGBAf8BLQHbAYEB/wEfAdQBOgH/
+        ARMBywEkAf8BCgHCARkB/wEDAbQBEAH/AQMBqgEJAf8BgQHEAYEB/wEGAZIBCgH/AUcB2gGBAf8BgQHg
+        AYEB/wGBAeYBgQH/AYEB5AGBAf8BRwHjAYEB/wFKAeQBgQH/AUoB5AGBAf8BOwHhAYEB/wEtAdsBgQH/
+        AR8B1AE6Af8BEwHLASQB/wEKAcIBGQH/AQMBtAEQAf8BAwGqAQkB/wGBAcQBgQH/AwABAQMAAQEDAAEB
+        AwABAQMKAQ0CAwG1Af8CAwG1Af8CAwG1Af8CAwG1Af8CAwG1Af8CAwG1Af8BQgJBAXMDAAEBAwABAQMA
+        AQEDAAEBAwQBBRT/AfgB6gHZAf8B7AHoAeMJ/wHJAfEB+AH/AYEB6AH4Af8BgQHBAdoB/wLBAcAB/wH+
+        Af0B+wH/AwABAQEGAZIBCgH/AT8B1AFNAf8BRgHYAYEB/wGBAd8BgQH/AYEB5gGBAf8BgQHnAY4B/wGB
+        AewBngH/AYEB6QGNAf8BRwHjAYEB/wE+AeEBgQH/ATAB2wGBAf8BIQHVAT8B/wEUAc0BJwH/AQoBwgEa
+        Af8BBAG2ARAB/wGBAcwBgQH/AQYBkgEKAf8BPwHUAU0B/wFGAdgBgQH/AYEB3wGBAf8BgQHmAYEB/wGB
+        AecBjgH/AYEB7AGeAf8BgQHpAY0B/wFHAeMBgQH/AT4B4QGBAf8BMAHbAYEB/wEhAdUBPwH/ARQBzQEn
+        Af8BCgHCARoB/wEEAbYBEAH/AYEBzAGBAf8DAAEBAwABAQMAAQEDAAEBAwABAQMKAQ0CAwGvAf8CAwGv
+        Af8CAwGvAf8CAwGvAf8BQgJBAXMDAAEBAwABAQMAAQEDAAEBAwABAQMEAQUE/wHNAcEBsgH/Ac0BwQGy
+        Af8BzQHBAbIB/wHfAdgBzwH/AfgB6gHZAf8B7AHoAeMN/wHkAfIB9gH/AfEC8AH/AcsBygHJAf8BxQHE
+        AcEB/wMAAQEBBgGSAQoB/wE6Ac4BRwH/AT8B1AFNAf8BRgHYAYEB/wGBAd8BgQH/AYEB5QGBAf8BgQHo
+        AZIB/wGBAewBngH/AYEB7QGhAf8BgQHtAaEB/wGBAecBjgH/AYEB4gGBAf8BLgHXAUoB/wEUAc0BJwH/
+        AQwBwgEcAf8BgQHTAYEB/wEGAZIBCgH/AToBzgFHAf8BPwHUAU0B/wFGAdgBgQH/AYEB3wGBAf8BgQHl
+        AYEB/wGBAegBkgH/AYEB7AGeAf8BgQHtAaEB/wGBAe0BoQH/AYEB5wGOAf8BgQHiAYEB/wEuAdcBSgH/
+        ARQBzQEnAf8BDAHCARwB/wGBAdMBgQH/AwABAQMAAQEDAAEBAwABAQMAAQEBQgJBAXMCAwGpAf8CAwGp
+        Af8CAwGpAf8CAwGqAf8DWAHvAwABAQMAAQEDAAEBAwABAQMAAQEDBAEFFP8B+AHqAdkB/wHsAegB4xH/
+        A+0B/wLkAeUB/wJKAc8B/wNKAY0BBgGSAQoB/wE4AcoBRQH/ATsB0AFIAf8BPwHUAU0B/wFEAdgBgQH/
+        AYEB3wGBAf8BgQHkAYEB/wGBAecBjgH/AYEB6gGaAf8BgQHtAaEB/wGBAe0BpQH/AYEB6gGaAf8BgQHn
+        AYsB/wGBAeIBgQH/AUwB3gGBAf8BmgHdAagB/wEGAZIBCgH/ATgBygFFAf8BOwHQAUgB/wE/AdQBTQH/
+        AUQB2AGBAf8BgQHfAYEB/wGBAeQBgQH/AYEB5wGOAf8BgQHqAZoB/wGBAe0BoQH/AYEB7QGlAf8BgQHq
+        AZoB/wGBAecBiwH/AYEB4gGBAf8BTAHeAYEB/wGaAd0BqAH/AwABAQMAAQEDAAEBAwABAQFCAkEBcwID
+        AaMB/wIDAaMB/wIDAaMB/wIDAaQB/wIDAaQB/wIDAaQB/wNYAe8DAAEBAwABAQMAAQEDAAEBAwQBBQT/
+        Ae4B6gHlAf8B7gHqAeUB/wHuAeoB5QH/AfQB8gHvAf8B+AHqAdkB/wHsAegB4xX/AuMB9AH/AoEB6gH/
+        AwUBB1gAAYEB4AGBAf8BgQHjAYEB/wGBAecBiwH/AYEB6gGaAf8BBgGSAQoB/xcAAQEDAAEBAwABAQFC
+        AkEBcwIDAZ0B/wIDAZ0B/wIDAZ0B/wFCAkEBcwMKAQ0CAwGeAf8CAwGeAf8CAwGeAf8DWAHvAwABAQMA
+        AQEDAAEBAwQBBQT/Ad0B1QHLAf8B3QHVAcsB/wHdAdUBywH/AeoB5QHfAf8B+AHqAdkB/wHsAegB4xn/
+        Af4B/QH7Af8DAAEBWAABRgHYAYEB/wFLAd0BgQH/AYEB4gGBAf8BgQHnAYsB/wEGAZIBCgH/FwABAQMA
+        AQEBQgJBAXMCAwGXAf8CAwGXAf8CAwGXAf8BQgJBAXMDAAEBAwABAQMKAQ0CAwGYAf8CAwGYAf8CAwGY
+        Af8DWAHvAwABAQMAAQEDBAEFFP8B+AHqAdkB/wHnAeMB3AH/Ae0B6gHlAf8B7QHqAeUB/wHtAeoB5QH/
+        Ae0B6gHlAf8B7QHqAeUB/wHuAesB5gH/Af4B/QH7Af8DAAEBWAABQAHVAU4B/wFBAdYBgQH/AUoB3AGB
+        Af8BgQHiAYEB/wEGAZIBCgH/FwABAQMIAQsCAwGRAf8CAwGRAf8CAwGRAf8BQgJBAXMDAAEBAwABAQMA
+        AQEDAAEBAwoBDQIDAZIB/wIDAZIB/wIDAZIB/wFOAk0BlQMAAQEDBQEHAdsBrwGBAf8B2wGvAYEB/wHb
+        Aa8BgQH/AdsBrwGBAf8B2wGvAYEB/wHaAawBgQH/AdsBrwGBAf8B2wGvAYEB/wHbAa8BgQH/AdsBrwGB
+        Af8B2wGvAYEB/wHbAa8BgQH/AdsBrwGBAf8B2wGvAYEB/wMAAQFYAAE7AdABSAH/AT0B0QFKAf8BQQHV
+        AYEB/wFJAdwBgQH/AQYBkgEKAf8XAAEBAwABAQMSARkCAwGLAf8BQgJBAXMDAAEBAwABAQMAAQEDAAEB
+        AwABAQMAAQEDCgENAgMBjAH/AVICUQGhAwABAQMAAQEDBAEFAd8BrQGBAf8B3wGtAYEB/wHfAa0BgQH/
+        Ad8BrQGBAf8B3wGtAYEB/wHfAa0BgQH/Ad8BrQGBAf8B3wGtAYEB/wHfAa0BgQH/Ad8BrQGBAf8B3wGt
+        AYEB/wHfAa0BgQH/Ad8BrQGBAf8B3wGtAYEB/wMAAQFYAAE4AcoBQwH/ATkBzQFFAf8BOwHRAUoB/wFA
+        AdUBTgH/AQYBkgEKAf8XAAEBAwABAQMAAQEDCAELAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMA
+        AQEDBwEJAwABAQMAAQEDAAEBAwABAQHqAcEBkQH/AewByAGdAf8B7AHIAZ0B/wHsAcgBnQH/AewByAGd
+        Af8B7AHIAZ0B/wHsAcgBnQH/AewByAGdAf8B7AHIAZ0B/wHsAcgBnQH/AewByAGdAf8B7AHIAZ0B/wHs
+        AcgBnQH/AesBxAGXAf8DAAEBWAABBgGSAQoB/wEGAZIBCgH/AQYBkgEKAf8BBgGSAQoB/wMTARoXAAEB
+        AwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEB
+        AwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEB
+        AwABAQFCAU0BPgcAAT4DAAEoAwABQAMAASADAAEBAQABAQYAAQEWAAP/gQAC/wH8AR8EAAL/AfwBHwQA
+        Av8B/AEfBAAC/wH8AR8EAAL/AfwBHywAAv8B/AEfBAAC/wH8AR8EAAL/AfwBHwQAAv8B/AEfBAAC/wH8
+        AR8EAAL/AfwBHwQACw==
+</value>
+  </data>
+  <metadata name="ImageStatusbar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>292, 17</value>
+  </metadata>
+  <data name="ImageStatusbar.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAACk
+        LQAAAk1TRnQBSQFMAgEBBwEAAbABAAGwAQABEgEAARIBAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFI
+        AwABJAMAAQEBAAEgBQABgAEoFgADGgElAzEBTgM7AWUDQgF1A0YBfgNIAYMDSgGKA0oBjANKAYwDSgGL
+        A0gBhQNGAX8DQgF2Az4BagM2AVgDJQE3AwUBBwgAAy8BSgNVAbcDWAHjA1gB4wNYAeMDWAHjA1gB4wNY
+        AeMDWAHjA1gB4wNYAeMDWAHjA1gB4wNOAZcUAAEzAYsBQAH9ARMBGgEWAf8DHQH/AyUB/wMqAf8DKwH/
+        AycB/wMhAf8DFwH/AwoB/wMBAf8DAQH/AwEB/wMBAf8BXgJdAe1MAAMHAQkDGQEjAzsBYwMyAVEDIAEv
+        AyUBNwMpAT4DLQFGAy0BRgMrAUIDJgE4AyMBNAMgAS4DGgEkAxMBGgMKAQ4DAQECAwEBAgMQARYDQgFz
+        A14B2QHSAdMB0gH/A9YB/wPWAf8D1gH/A9YB/wPWAf8D1gH/A9YB/wPWAf8D1gH/AbYCuAH/A1YBtgMW
+        AR4DCQEMCAADGwEmAZkB5QHJAf8BlQHiAcQB/wELAY0BQgH/ASQBnwFYAf8BGAFhAVQB/wGCAZQBpgH/
+        A84B/wPTAf8C2gHZAf8C4wHiAf8C7AHrAf8C9gH1Af8C9gH1Af8CZAFjAf8BWQFXAVMB/1AAAwUBBwNL
+        AY8DUwGwA0MBeAMoAT0DDQERAwsBDwMLAQ8DCgEOAwcBCgMHAQkDBQEHAwMBBAMBAQILAAEBA1ABmgNZ
+        AdICZAFiAfMBtgG3AbQB/wGvAa0BqwH/Aa8BrQGrAf8BrwGtAasB/wGvAa0BqwH/Aa8BrQGrAf8BrwGt
+        AasB/wGvAa0BqwH/Aa8BrQGrAf8CrQGqAf8BmAGZAZgB/wNfAegDTgGUAwkBDAgAAZMB6AHOAf8BPQG4
+        AY4B/wFDAaYBhAH/ARoBowFbAf8BQgG1AYoB/wEVAZgBuAH/AQABRQGUAf8BAAEcAUwB/wEAAS0BaQH/
+        AQABKQFgAf8C3AHbAf8B5wHlAd8B/wHxAewB3AH/AfgB7AHNAf8B6gHiAc8B/wFcAVoBVgH/VAADUAGf
+        A10B7QNeAdgDVQGwA0UBfAMcAScoAANaAd4BPAE9ATkB/gFGAUgBRAH/AU4BUAFNAf8CSAFFAf8CSAFF
+        Af8CSAFFAf8CSAFFAf8CSAFFAf8CSAFFAf8CSAFFAf8CSAFFAf8BRwFIAUUB/wFCAUQBQQH/ATMBNQEy
+        Af8DVwHoA0gBhAgAATsBtAGPAf8BRAHVAaQB/wEfAbsBYwH/ARABvQFXAf8BiAHNAbgB/wENAUoBYAH/
+        AQABJQFdAf8BBgFWAacB/wEcAZ8B5wH/ARYBkgHZAf8BnwHeAcIB/wE8AaoBaAH/AQoBiwFAAf8BtgHS
+        AbYB/wH4AewBzgH/AV8BXAFXAf9UAANNAZEDYQHuAYIBpAG2Af4BsgHZAeoB/wNfAegDSgGJAxMBGgMC
+        AQMgAANhAeIBYwFnAWQB/wFfAWMBYAH/AWABZAFhAf8BYQFlAWIB/wFhAWYBYwH/AWIBZgFjAf8BYgFn
+        AWQB/wFjAWgBZAH/AWQBaQFlAf8BZQFpAWYB/wFlAYABZwH/AWYBgQFoAf8BaQGDAYAB/wGCAYYBgwH/
+        AYMBhwGEAf8DXwHjBAADJgE4AUMB2gGqAf8BNwHUAZwB/wFKAdcBpwH/AR4BxAFkAf8BFAG2AVcB/wEm
+        AbEB6wH/ARwBnwHnAf8BAAEmAVcB/wEAATIBhgH/AQABTgFfAf8BCQGmAUkB/wEgAawBYwH/AR8BqgFi
+        Af8BIgGcAVgB/wGZAZYBjgH/AWIBYAFbAf9UAANIAYMDZQHlAX8BmQGvAf4BfwGUAawB/gFmAYgBmwH8
+        AVgCYgHpAUQCRQF8Aw0BEgMAAQEcAANhAeIBxgHMAckB/wGaAZ8BmwH/AYsBjwGLAf8BjQGRAY0B/wGP
+        AZMBjwH/AY8BkwGPAf8BkAGVAZAB/wGRAZYBkQH/AZMBlwGTAf8BlAGYAZQB/wGVAZkBlQH/AZYBmgGW
+        Af8BsAG2AbIB/wHSAdgB1QH/AcIByAHFAf8DXwHjBAABTAG4AZYB/wFTAeQBvgH/AUcB3QGwAf8BSAHV
+        AawB/wExAdABlQH/ARkBqwHXAf8BOQHSAfMB/wEqAcQBugH/AR4BpwHTAf8BHAGfAecB/wEAARoBSwH/
+        AREBmgFOAf8BDwG8AVUB/wFbAckBqQH/AUIBrwGJAf8BkQGMAYEB/wFlAWMBXgH/VAADQgF0A2EB2gGC
+        AagBrgH9AWEBgAGjAf4BQAGoAa4B/QFNAX8BrQH+ARUBrwHkAf8DLQFGAwgBCxwAA2EB4gHRAdYB0wH/
+        AUgBSQFEAf8BGgEYARIB/wEfAR4BGAH/AR8BHgEYAf8BHwEeARgB/wEfAR4BGAH/AR8BHgEYAf8BHwEe
+        ARgB/wEfAR4BGAH/AR8BHgEYAf8BIQEgARoB/wFlAWcBYwH/Ac4B1QHSAf8BvwHFAcIB/wNfAeMEAANc
+        AckBGwGiAVwB/wEwAcYBpAH/AU0B4QG2Af8BOAHCAZYB/wFgAegB+AH/AU4B5QH2Af8BOwHYAeQB/wEA
+        AZ0BgAH/AS0BvAHuAf8BSQGtAY0B/wEcAZ4BVgH/AS4BoAFcAf8BFgG2AVsB/wGWAeMByAH/AZUBkQGC
+        Af8BZwFkAWAB/1QAAzgBXQFZAlwBzAEnAa0B3gH/AUcBfwGvAf4BIgG8Ae0B/wEjAbgB6gH/AUIBfwGi
+        Af4BUwJVAbADHQEqAwEBAhgAA2EB4gHhAeQB4wH/AVIBUwFPAf8BLgEtASgB/wI/AToB/wE+AT8BOgH/
+        AT0BPgE5Af8CPQE4Af8CPQE4Af8CPQE4Af8CPQE5Af8CPgE5Af8BSAFJAUUB/wGfAaABnQH/AeYB6QHo
+        Af8B0QHVAdMB/wNfAeMMAAFjAeoB0QH/AUgBzwGuAf8BoQHtAfoB/wGBAesB3wH/AWAB6gHRAf8BGwHL
+        AaoB/wECAZ4BaQH/AQ8BlgHMAf8BDwG8AVUB/wELAa0BTAH/AScBtAGFAf8BZAHGAacB/wEnAZsBVgH/
+        AZgBkwGDAf8BaQFmAWEB/1QAAxkBIwFPAlMBpQEiAasB3wH/ATkBfwGsAf4BMQHAAfAB/wELAbMB5QH/
+        AUABqAGqAf0BDwG0AeUB/wM6AWIDDQERGAADYQHiAfIC8wH/AV4BXwFdAf8BWwFdAVkB/wGhAaMBoAH/
+        AZ0BnwGcAf8BlgGZAZUB/wGSAZQBkQH/AZABkwGPAf8BkgGUAZEB/wGTAZYBkgH/AZgBmgGXAf8BpwGp
+        AacB/wHPAdEB0AH/AfQC9QH/AdwB3gHdAf8DXwHjDAADCQEMAUMBSgFJAf8BwwHyAfsB/wGyAfAB/AH/
+        AWAB6AHOAf8BKQHPAbAB/wFoAekB+AH/AYQBywG0Af8BtQHqAdsB/wEUAb8BWwH/AY4B2AHDAf8BCwGQ
+        AUMB/wHrAfAB5QH/AZsBlQGEAf8BgAFnAWIB/1QAAwMBBAMtAUUDVgGzAT0BfwGiAf4BNwF/AaQB/gE1
+        AX8BowH+ASIBfwGbAf4BOAF/AaQB/gFXAl8B6AM7AWUDDQERFAADYQHiA/wB/wFpAYEBaQH/AS8BMgEv
+        Af8BNQE4ATUB/wE0ATcBNAH/ATMBNgEzAf8BMwE2ATMB/wEzATYBMwH/ATMBNgEzAf8BMwE2ATMB/wE0
+        ATcBNAH/ATUBOAE1Af8BmgGcAZsB/wP+Af8DlgH7A14B1QwAAwkBDAFGAUMBQAX/AcAB8QH8Af8BvgHx
+        AfsB/wGsAe8B+gH/AV0B0AHTAf8BOgHVAaAB/wEqAcUBigH/ASQByAGEAf8BGAHCAWEB/wGGAdcBuQX/
+        AZ4BlwGFAf8BggFpAWQB/1gAAwkBDAM5AV8BWAJcAdEBQAGkAaoB/QFAAaIBqgH9ARsBfwGbAf4BLQF/
+        AZ8B/gErAXMBggH8AVUCVgGxAykBPhQAAyIBMQJdAVsB0gElASQBHwH/AooBiAH/AccBygHJAf8BtgG8
+        AbgB/wG2AbwBuAH/AbYBvAG4Af8BtgG8AbgB/wG2AbwBuAH/AbYBvAG4Af8BtgG8AbgB/wGCAYcBhAH/
+        AUsBUAFOAf8DWgG9AyUBNwMgAS4MAAMJAQwBSwFIAUQD/wH+Av8B/gH9Af8B8gH8Af0B/wHFAfMB/AH/
+        ATIBrAGHAf8BJgG+AZgB/wEzAc4BjQH/ATQB0gGZAf8BHQGqAWAB/wH+Af0B+gH/Af4B/QH5Af8BngGV
+        AYAB/wGEAYEBZQH/XAADGgElA0oBiwFKAYQBigH7ATABhAGuAf4BQAGfAaoB/QEdAX8BmwH+ASgBfwGs
+        Af4BVQJcAeoBTAJNAZEDHwEtFAADWAHGARcBFgERAf8BogGhAZ8B/wHtAfAB7wH/AdcB3gHaAf8B1gHd
+        AdkB/wHSAdkB1QH/AbsBvgG9Af8B1AHbAdcB/wHXAd4B2gH/AdcB3gHaAf8BoQGnAaQB/wFdAWIBYAH/
+        A1MBqhQAAwkBDAFRAU0BSQH/Af0B+QHwAf8B/QH5AfAB/wH9AfkB8AH/Af0B+QHwAf8B/QH6AfAB/wFf
+        AeEByAH/AUYB1QGuAf8BOwHEAZcB/wGPAd8BxQH/Af0B+QHwAf8B/QH5AfAB/wGeAZQBZgH/AYUBggFn
+        Af9cAAMGAQgDJwE7AVICVAGmASUBuQHqAf8BMQF/AZkB/gEVAX8BmgH+ASkBfwGjAf4BaAGCAZkB/gNg
+        Ad4DRAF5Aw0BEhAAA1gBxgEjASQBIAH/AqcBpgH/Ae0B8AHvAf8B1wHeAdoB/wHRAdcB0wH/AbkBvAG6
+        Af8DqgH/AcEBxQHDAf8B0wHaAdYB/wHXAd4B2gH/Aa8BtQGyAf8BlQGaAZgB/wNTAaoUAAMJAQwBWQFW
+        AVEB/wH7AfQB4QH/AfsB9AHhAf8B+wH0AeEB/wH7AfQB4QH/AfsB9AHhAf8B+wH0AeEB/wLtAdkB/wFB
+        AcUBoAH/AfsB9AHhAf8B+wH0AeEB/wH7AfQB4gH/AZ8BlAFkAf8BhwGEAWgB/2AAAwcBCgMtAUYBWQJd
+        AdcBOwF/AaAB/gFBAX8BmwH+AWYBfwGYAf4CfwGDAf4BOQE4AaAB/wJWAVgBuQMrAUIQAANYAcYBTQFQ
+        AU4B/wHCAcMBwgH/Ae8B8gHxAf8B2wHhAd0B/wHPAdMB0QH/AagBqQGoAf8DpwH/AcEBxAHCAf8B1QHb
+        AdcB/wHaAeAB3AH/AbwBwgG/Af8BrQGzAbEB/wNTAaoUAAMJAQwBZgFiAV0B/wH5Ae4B0gH/AfkB7gHS
+        Af8B+QHuAdIB/wH5Ae4B0gH/AfkB7gHSAf8B+QHuAdIB/wH5Ae4B0gH/AfkB7gHSAf8B+QHuAdIB/wH5
+        Ae4B0gH/AfkB7gHSAf8BpQGZAWcB/wGLAYgBggH/ZAADEgEZA0cBgAF/AYQBoAH+AXkBfwGJAf4BfAF/
+        AYwB/gFHAUYBfwH+AgABkQH/AlkBXAHJAzYBWRAAA0cBgwNSAakDXgHZAfQB9QH0Af8B4wHoAeUB/wHV
+        AdkB1wH/AawBrQGsAf8DqQH/AdYB2gHXAf8B4AHkAeIB/wHgAeYB4gH/AcYBzQHJAf8DXgHZA0ABcRQA
+        AwkBDAGIAYUBgAH/AfcB6QHDAf8B9wHpAcMB/wHiAdYBuAH/AfcB6QHDAf8B5AHZAbwB/wH3AekBwwH/
+        AfQB5gHDAf8B9wHpAcMB/wH3AekBwwH/Ae0B4AG9Af8B9wHpAcMB/wGrAaABhAH/AY8BiwGGAf9kAAME
+        AQUDHQEqA14B1QNtAfcCOQGRAf0CTAFfAfMCXAFhAdwCSwFMAZADHgErGAADSgGNAfgB+QH4Af8B7gHx
+        Ae8B/wHjAeUB5AH/Ab8CwAH/A7wB/wHjAeUB5AH/AeoB7QHrAf8B6QHtAesB/wHMAdIBzwH/A0sBjhgA
+        AwYBCAGPAYwBhwH/Ad4BygGUAf8BjgGHAV8B/wNUAf8B3wHLAZMB/wNUAf8BlgGMAV8B/wFbAVkBVQH/
+        AV4BWQFUAf8BWwFWAVIB/wFYAVcBVAH/Ad4BygGUAf8BrwGjAYcB/wGRAY4BiAH/aAADBQEHAyoBQAJb
+        AV4B0AJVAVwB6gJWAVcBuAM2AVgDDgETHAADSgGMAcEBwgHBAf4BvQG/Ab4B/gG8Ab4BvQH+AbwBvgG9
+        Af4BuwG9AbwB/gG6AbwBuwH+AboBvAG7Af4BuQG7AboB/gF+AX8BfgH4A0kBhxwAAzEBTgHcAcgBkwH/
+        AdQBvwGKAf8D8wH/AdgBwgGHAf8D8wH/AdkBwgGGAf8D+AH/AcMBvAGuAf8B0wHKAbUB/wHzAvIB/wHY
+        AcIBhwH/A0oBjAMAAQFwAAMzAVIDOQFfAxcBICQAA0kBiANZAfUDYgH2A2IB9gNiAfYDYgH2A2IB9gNi
+        AfYDYgH2A1oBvQMyAVAoAAM2AVkEAAM9AWgEAAMKAQ4IAAMYASFXAAEBAwABAQMAAQEDAAEBAwABAQMA
+        AQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMv
+        AUoDVwG3A18B4wNfAeMDXwHjA18B4wNfAeMDXwHjA18B4wNfAeMDXwHjA18B4wNfAeMDTgGYAwABAQMA
+        AQEDAAEBAwABAQMABAEBAgMEAQUDCQEMAw8BFAMrAUIDVQGwAyMBNAMYASEDDgETAwgBCwMEAQUDAQEC
+        AwABAQMAAQEDAAEBSwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEB
+        AwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwIBAwMQARYDQgFzA14B2QHfAeAB3wH/A+MB/wPjAf8D4wH/
+        A+MB/wPjAf8D4wH/A+MB/wPjAf8D4wH/AcMCxAH/A1YBtgMWAR8DCQEMAwABAQMAAQEDAAEBAwAEAQEC
+        AwMBBAMnATsBVgJYAbkBTAFqAV8B8wFcAmAB1AMdASkDBgEIAwIBAwMBAQIDAAEBAwABAQMAAQEDAAEB
+        IAADEAEWAVsCWAHGAxEBFx8AAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEB
+        AwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwAEAQECA1ABmgNZAdIDZgHzAbYBtwG0Af8BrwGtAasB/wGv
+        Aa0BqwH/Aa8BrQGrAf8BrwGtAasB/wGvAa0BqwH/Aa8BrQGrAf8BrwGtAasB/wGvAa0BqwH/Aq0BqwH/
+        AZ8CngH/A18B6ANOAZQDCgENAwABAQMAAQEDAAEBAwABAQMAAQEDKAE9AVQCVgGrAVUCZwHyAQABxQGQ
+        Af8BAAHFAZAB/wFWAlcBuAMgAS8DAwEEAwABAQMAAQEDAAEBAwABAQMAAQEYAAMmATkDSgGKAyABLwGE
+        AXEBBAH+AxUBHQNIAYQDJgE5FwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMI
+        AQsDLQFFAzABTAMhATADDAEQAwABAQMAAQEDAAEBAwABAQJgAVoB3gFwAW4BWwH+AYcBiAFfAf8CigFi
+        Af8BhAGDAVoB/wGEAYMBWgH/AYQBgwFaAf8BhAGDAVoB/wGEAYMBWgH/AYQBgwFaAf8BhAGDAVoB/wGE
+        AYMBWgH/AYMBggFaAf8BggGBAVoB/wJlAVMB/wNfAegDSAGEAwABAQMAAQEDAAEBAwABAQMqAUABUQJS
+        AacBTgFfAV0B8AEAAcYBkQH/AQABxgGRAf8BAAHGAZEB/wEAAcYBkQH/AVMCVAGsAyYBOAMDAQQDAAEB
+        AwABAQMAAQEDAAEBEAADMQFPA0sBjgJWAVUBtAJiAVgB6QJSAVEBpwHCAYoBAAH/AlABTwGbAmEBWAHm
+        AlYBVQG0A0sBjgMxAU8PAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwkBDAMmATgDPwFsA0UBfANV
+        AbUBWAJWAbwBRQJEAXwDIQEwAwcBCQMAAQEDAAEBAwABAQNhAeIBngGhAY8B/wGaAZ0BiwH/AZsBngGM
+        Af8BnAGfAY0B/wGdAaABjgH/AZ0BoAGOAf8BngGhAY8B/wGeAaIBkAH/AZ8BowGQAf8BoAGjAZEB/wGh
+        AaQBkgH/AaIBpQGTAf8BpAGnAZUB/wGnAaoBmAH/AaABpAGVAf8DXwHjAwABAQMAAQEDAAEBAygBPQFR
+        AlIBpwFXAmIB7wEAAccBkgH/AQABxwGSAf8BAAHHAZIB/wEAAccBkgH/AQABxwGSAf8BAAHJAZQB/wFR
+        AlIBpwMnAToDBAEFAwABAQMAAQEDAAEBEAADSgGNAb4BjAEAAf8BwwGPAQAB/wHIAZMBAQH/AcgBkwEB
+        Af8ByAGTAQEB/wHIAZMBAQH/AcgBkwEBAf8BwAGNAQAB/wG5AYEBAAH/A0sBjg8AAQEDAAEBAwABAQMA
+        AQEDAgEDAxYBHgMtAUYDPAFmA1MBqANiAfYDfwH+AYQBqAG5Af8BTgFKAU4B/QFZAlYBvgM7AWQDGAEi
+        AwMBBAMAAQEDAAEBA2EB4gHGAcwByQH/AaIBpwGjAf8BmAGcAZgB/wGaAZ4BmgH/AZsBnwGbAf8BnAGg
+        AZwB/wGdAaEBnQH/AZ4BowGeAf8BnwGkAZ8B/wGhAaUBoQH/AaEBpQGhAf8BowGnAaMB/wG3Ab0BuQH/
+        AdIB2AHVAf8BwgHIAcUB/wNfAeMDAAEBAwABAQMkATYDUwGqAU4BXwFdAfABAAHLAZYB/wEAAckBlAH/
+        AQAByQGUAf8BAAHJAZQB/wEAAckBlAH/AQAByQGUAf8BAAHLAZYB/wEAAcwBlwH/AVECUgGnAyYBOAMD
+        AQQDAAEBAwABAQgAAwMBBAMnAToDVgGzAcoBnQEbAf8BwwGYASIB/wHBAYsBBwH/Ac0BmwELAf8BzQGb
+        AQsB/wHNAZsBCwH/Ac0BmwELAf8BzQGbAQsB/wHKAZgBCgH/AlYBVQG0AyYBOQsAAQEDAAEBAwQBBgMY
+        ASIDJwE6A0UBfANeAdkBjwGkAbQB/wGNAa4BvwH/AZQBwAHSAf8BiQGnAbsB/wGDAacBugH/AWABnAGs
+        Af8DXwHoA1IBpAMvAUoDDQESAwABAQMAAQEDYQHiAdEB1gHTAf8CYgFeAf8BQgFAATsB/wFJAUcBQwH/
+        AUkBRwFDAf8BSQFHAUMB/wFJAUcBQwH/AUkBRwFDAf8BSQFHAUMB/wFJAUcBQwH/AUkBRwFDAf8BSQFH
+        AUMB/wGQAZIBjgH/Ac4B1QHSAf8BvwHFAcIB/wNfAeMDAAEBAx0BKQNVAbIBUwFlAWQB8QEAAcUBlwH/
+        AQAByAGXAf8BAAHLAZYB/wEAAcsBlgH/AQABywGWAf8BAAHLAZYB/wEAAcsBlgH/AQABzgGbAf8BAAHJ
+        AZkB/wEAAcUBmAH/AVMCVAGsAx8BLQMAAQEDAAEBCAADBwEJAlUBUwGtAccBmAESAf8BxgGmAUsB/wHC
+        AawBiwH/AbkBiwEwAf8BywGiASMB/wHaAbUBQQH/AcsBowEkAf8B0AGiARgB/wHSAaMBFQH/AdIBowEV
+        Af8BqgGYAUAB/QJTAVIBqAsAAQEDEgEYAyIBMQNSAaEBXQFeAV8B7QGlAcgB1gH/AcAB5AHzAf8BvgHl
+        AfUB/wG1Ad4B7wH/Aa4B2gHsAf8BowHSAeYB/wGLAbEByAH/AUUBlQGkAf8BVgGMAZIB/wNdAdIDRQF9
+        AyQBNgMDAQQDAAEBA2EB4gHhAeQB4wH/AYIBgwFpAf8CWQFWAf8DhQH/A4QB/wGDAYQBgwH/A4MB/wOD
+        Af8DgwH/A4MB/wKEAYMB/wGFAYYBhQH/AbECsgH/AeYB6QHoAf8B0QHVAdMB/wNfAeMDAAEBA1IBoQFZ
+        Al0B1wNfAeADXwHgAVQCYQHuAQABzQGYAf8BAAHNAZgB/wEAAc0BmAH/AQABzQGYAf8BAAHNAZgB/wFC
+        AW4BaAH1AVwCZAHnA18B4ANfAeABTQJOAZYDAAEBAwABAQgAAxABFgNWAbMBtwGKAR8B/wHDAacBaQH/
+        AfAB7AHkAf8B5QHhAdUB/wG7Aa4BaAH/A/kB/wG7AaoBXAH/AdEBrgE5Af8B1wGtASYB/wHTAagBHgH/
+        AYABagFBAfkCVgFUAasDEQEXBAADBAEFA1wBzAGCAYcBiAH5Ac0B7AH4Af8B0gHyAv8B0AHxAv8BygHu
+        AfwB/wG/AeUB9AH/AbIB2QHoAf8BsgHdAe8B/wGnAdQB5wH/AaEB0AHkAf8BrAHYAesB/wG+AeMB8gH/
+        AnMBdgH8AVwCWQHMAzoBYAMVAR0DAAEBA2EB4gHyAvMB/wGOAY8BjAH/AYIBhAGAAf8BoQGjAaAB/wGd
+        AZ8BnAH/AZYBmQGVAf8BkgGUAZEB/wGQAZMBjwH/AZIBlAGRAf8BkwGWAZIB/wGYAZoBlwH/AacBqQGn
+        Af8BzwHRAdAB/wH0AvUB/wHcAd4B3QH/A18B4wMAAQEDAAEBAwABAQMAAQEDAAEBA0ABcQEAAc8BmwH/
+        AQABzwGbAf8BAAHPAZsB/wEAAc8BmwH/AQABzwGbAf8BTwJTAaUDIAEvAwABAQMAAQEDAAEBAwABAQMA
+        AQEIAAJaAVcBxQHRAaoBJgH/Ae4B3AGpAf8B7gHcAaoB/wHdAcEBXQH/AeQB4gHfAf8D8gH/AvUB9AH/
+        Ad4BugE/Af8B7QHkAcoB/wHjAcgBZgH/AbsBmQEeAf8BugGYAR0B/wHLAaYBJAH/AlsBWAHGBAADLgFH
+        AVcBXwFXAegBfwGZAYEB/gHKAesB7wH/AckB5wHxAf8BxwHmAfEB/wHNAe8B+wH/AcMB5gHzAf8BtgHc
+        AeoB/wG3AeEB8gH/Aa4B2gHtAf8BogHQAeMB/wGTAb0BzwH/AagBzwHeAf8BoQHAAc4B/wNbAcMDKQE+
+        AwoBDgMAAQEDYQHiA/wB/wOoAf8DgQH/AoUBhAH/A4QB/wGDAYQBgwH/A4MB/wODAf8DgwH/A4MB/wKE
+        AYMB/wOFAf8BuwK8Af8D/gH/A5UB+wNeAdUDAAEBAwABAQMAAQEDAAEBAwABAQNAAXEBAAHSAZ0B/wEA
+        AdIBnQH/AQAB0gGdAf8BAAHSAZ0B/wEAAdIBnQH/AVMCVQGwAyMBNAMAAQEDAAEBAwABAQMAAQEDAAEB
+        CAADEAEWA1UBsgHiAcABQgH/AeIBwAE/Af8B4QG9ATkB/wHlAcsBZgH/AesB6AHhAf8BqAGVAToB/wHd
+        AdcBwAH/AecB5gHiAf8B8wHwAegB/wHwAewB4QH/AeEBzwGZAf8DVgGzAxABFgQAAw0BEgNZAccBZwF1
+        AWcB+AG+Ad0B2gH/AcQB4AHoAf8BwQHdAeYB/wHPAfAB+wH/AcgB6wH4Af8BuAHcAekB/wG8AeQB9AH/
+        AacBzwHgAf8BlgG+Ac8B/wGYAcQB1wH/AacB1AHmAf8DXAHfA0cBgAMKAQ0DAgEDAwABAQMiATIDXQHS
+        AUwBSwFGAf8BpgGlAaMB/wHVAdgB1wH/AcQBygHHAf8BxAHKAccB/wHEAcoBxwH/AcQBygHHAf8BxAHK
+        AccB/wHEAcoBxwH/AcQBygHHAf8BnwGhAaAB/wONAf8DWgG9AyYBOAMgAS8DAAEBAwABAQMAAQEDAAEB
+        AwABAQNAAXEBAAHUAZ8B/wEAAdQBnwH/AQAB1AGfAf8BAAHUAZ8B/wEAAdQBnwH/AVQCYQHuAVoCXQHT
+        A1kBxwNZAccDWQHHAVICVAGmAxwBKAwAA1IBqQHkAcIBPwH/AeUBwwE+Af8B5QHDAT4B/wHmAcYBRgH/
+        AecBzAFfAf8B1gG4ATsB/wHSAboBUQH/Ae8B6QHYAf8B5gHWAaEB/wHHAbUBXgH/AcUBsAFNAf8DUwGq
+        CwABAQMpAT8DYAHWAZQBtAGdAf8BvAHXAdAB/wHMAeAB5wH/AcEB2wHiAf8BwwHhAewB/wHEAecB9QH/
+        AcAB5wH2Af8DYAHeA0oBiwM6AWADNQFVAy4BSAMaASUDAAEBAwABAQMAAQEDAAEBA1gBxgE9ATwBNwH/
+        AbMBsgGwAf8B7QHwAe8B/wHXAd4B2gH/AdYB3QHZAf8B0gHZAdUB/wG7Ab4BvQH/AdQB2wHXAf8B1wHe
+        AdoB/wHXAd4B2gH/AagBrQGqAf8BggGGAYQB/wNWAasDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEB
+        A0ABcQEAAdUBoQH/AQAB1QGhAf8BAAHVAaEB/wEAAdUBoQH/AQAB1QGhAf8BAAHXAacB/wEAAb0BgQH/
+        AQABsQFYAf8BAAG2AWMB/wEAAb0BiQH/AVoCXAHNAxABFQwAAyYBOANWAbMB6gHLAUkB/wHqAcsBSQH/
+        AeoBywFJAf8B6gHLAUkB/wHqAcsBSQH/AeIBxAFFAf8B7gHXAYkB/wHpAc4BWgH/AdoBvgFGAf8DVgG0
+        AyYBOAsAAQEDAAEBAzsBYwNgAdQBmgG/AZ8B/wG6AdYBzgH/AWIBYwFkAe0DVwG4A0MBdwNAAXEDNwFb
+        AxoBJQMGAQgDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBA1sBxgJYAVUB/wG/Ab4BvQH/Ae0B8AHv
+        Af8B1wHeAdoB/wHRAdcB0wH/AbkBvAG6Af8DqgH/AcEBxQHDAf8B0wHaAdYB/wHXAd4B2gH/Aa8BtQGy
+        Af8BlQGaAZgB/wNWAasDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBA0ABcQEAAdUBoQH/AQAB2AGj
+        Af8BAAHYAaMB/wEAAdgBowH/AQAB2AGjAf8BDQHhAbMB/wEAAbwBZwH/AQABqQFJAf8BAAGuAVEB/wEA
+        AboBaQH/A1sByAMCAQMQAANKAY0B7QHRAV8B/wHvAdMBYAH/Ae8B0wFgAf8B7wHTAWAB/wHvAdMBYAH/
+        Ae8B0wFgAf8B7wHTAWAB/wHvAdMBYAH/AekBzgFVAf8DSwGODwABAQMAAQEDCQEMA0YBfgNRAaADSwGO
+        A0UBfAMuAUcDBQEHAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDWwHG
+        AZECkgH/AdIB0wHSAf8B7wHyAfEB/wHbAeEB3QH/Ac8B0wHRAf8BqAGpAagB/wOnAf8BwQHEAcIB/wHV
+        AdsB1wH/AdoB4AHcAf8BvAHCAb8B/wGtAbMBsQH/A1YBqwMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMA
+        AQEDOwFkAVkBYgFgAesBAAHcAakB/wEAAdoBpQH/AQAB2gGmAf8BAAHdAaoB/wEgAegBvQH/AQYBugFm
+        Af8BAAGiAUIB/wEAAaUBRQH/ASoBdQFRAfwBVgJYAcEDAAEBEAADMQFOA0oBjQNWAbMB8wHbAYoB/wHz
+        AdsBigH/AfMB2wGKAf8B8wHbAYoB/wHyAdoBiQH/A1YBtANKAY0DMQFPDwABAQMAAQEDAAEBAx0BKgMU
+        ARwDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMA
+        AQEDSAGEA1MBqgNeAdkB9AH1AfQB/wHjAegB5QH/AdUB2QHXAf8BrAGtAawB/wOpAf8B1gHaAdcB/wHg
+        AeQB4gH/AeAB5gHiAf8BxgHNAckB/wNeAdkDQQFyAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMl
+        ATcBUgJTAagBEQHlAbcB/wEHAeIBsgH/AQcB4gGzAf8BFQHmAboB/wExAewBxAH/ARgByQGTAf8BAAGn
+        AU4B/wEAAaMBSAH/A18B4ANGAX8DAAEBGAADJgE4A1IBqQNWAbMB8AHcAZAB/wNWAbMDVgG2AykBPhcA
+        AQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMA
+        AQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDSwGOAfgB+QH4Af8B7gHxAe8B/wHjAeUB5AH/Ab8CwAH/
+        A7wB/wHjAeUB5AH/AeoB7QHrAf8B6QHtAesB/wHMAdIBzwH/A0wBjwMAAQEDAAEBAwABAQMAAQEDAAEB
+        AwABAQMAAQEDAAEBAwABAQMuAUcBVwJcAd8BLQHpAcAB/wEtAekBwAH/AS0B6QHAAf8BLQHpAcAB/wEj
+        AeYBuwH/AQ4BtQGAAf8BWQJgAesBSwJMAZADBwEKAwABASAAAxABFgNaAcUDEQEXAxUBHQMJAQwXAAEB
+        AwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEB
+        AwABAQMAAQEDAAEBAwABAQMAAQEDAAEBA0oBjQG+AbwBuwH+AbsBugG5Af4BugG5AbgB/gG6AbkBuAH+
+        AbkBuAG3Af4BuAG3AbYB/gG4AbcBtgH+AbgBtgG1Af4DfgH4A0kBiAMAAQEDAAEBAwABAQMAAQEDAAEB
+        AwABAQMAAQEDAAEBAwABAQMQARUDOwFjAV0CYQHiAV0CYQHiAV0CYQHiAV0CYQHiAV0CYQHiA18B4ANM
+        AZIDGAEhAwABAQMAAQFLAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMA
+        AQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAUkCSAGIAWICSAH2AW0CUQH3
+        AW0CUQH3AW0CUQH3AW0CUQH3AW0CUQH3AW0CUQH3AW0CUQH3AVkCVgG+AzIBUQMAAQEDAAEBAwABAQMA
+        AQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMAAQEDAAEBAwABAQMA
+        AQEDAAEBAwABAUgAAUIBTQE+BwABPgMAASgDAAFIAwABJAMAAQEBAAEBBQABsAEBFgAD/wEAAYABAAEw
+        AQABPgcAAYADAAEMBwABwAEAAcABAAEMBwAB4AF/AeABAAEMBwAB4AEfAeABAAEIBwAB4AEPAeABAAEI
+        BwAB4AEPAeABAAEIBwAB4AEHAeABAAEOBwAB4AEHAeABAAEOBwAB4AEDAeABAAEOBwAB8AEDAeABAAEO
+        BwAB+AEBAfABAAE+BwAB+AEAAfABAAE+BwAB/AEAAfABAAE+BwAB/gEAAfABAAE+BwAB/gEAAfwBAAF+
+        BwAB/wEBAfwBAAF/BwAB/wHHAfwBAAF/AeoB3AsAAQMC/wkAAQMB/AF/CQABAwHwAR8JAAEDAcABBwkA
+        AQMBwAEHCQABAwEAAQMJAAEDAQABAwkAAQMBAAEBCQABAwEAAQEJAAEDAQABAQkAAQMBgAEDCQABAwGA
+        AQMJAAEDAcABBwkAAQMBwAEHCQABAwHwAR8JAAEDAfwBHwkAAQMC/wkAAQMC/wMACw==
+</value>
+  </data>
+  <metadata name="ErrReceipt.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>423, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>49</value>
+  </metadata>
+  <data name="GridReceipt_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ReceiptID"&gt;&lt;Caption&gt;InvoiceID&lt;/Caption&gt;&lt;DataMember&gt;ReceiptID&lt;/DataMember&gt;&lt;Key&gt;ReceiptID&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;/Column0&gt;&lt;Column1 ID="ReceiptNo"&gt;&lt;Caption&gt;Invoice No&lt;/Caption&gt;&lt;DataMember&gt;ReceiptNo&lt;/DataMember&gt;&lt;Key&gt;ReceiptNo&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;139&lt;/Width&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column1&gt;&lt;Column2 ID="TIME_CREATE"&gt;&lt;Caption&gt;Time Create&lt;/Caption&gt;&lt;DataMember&gt;TIME_CREATE&lt;/DataMember&gt;&lt;Key&gt;TIME_CREATE&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;108&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="ReceiptDate"&gt;&lt;Caption&gt;Invoice Date&lt;/Caption&gt;&lt;DataMember&gt;ReceiptDate&lt;/DataMember&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;Key&gt;ReceiptDate&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;137&lt;/Width&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column3&gt;&lt;Column4 ID="CustomerNo"&gt;&lt;Caption&gt;Customer No&lt;/Caption&gt;&lt;DataMember&gt;CustomerNo&lt;/DataMember&gt;&lt;Key&gt;CustomerNo&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Width&gt;140&lt;/Width&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column4&gt;&lt;Column5 ID="MedicReal"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Medicine R&lt;/Caption&gt;&lt;DataMember&gt;MedicReal&lt;/DataMember&gt;&lt;Key&gt;MedicReal&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column5&gt;&lt;Column6 ID="MedicDolar"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Medicine $&lt;/Caption&gt;&lt;DataMember&gt;MedicDolar&lt;/DataMember&gt;&lt;Key&gt;MedicDolar&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column6&gt;&lt;Column7 ID="EyeGlassesReal"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Sun Glasses R&lt;/Caption&gt;&lt;DataMember&gt;EyeGlassesReal&lt;/DataMember&gt;&lt;Key&gt;EyeGlassesReal&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Width&gt;116&lt;/Width&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column7&gt;&lt;Column8 ID="EyeGlassesDolar"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Sun Glasses $&lt;/Caption&gt;&lt;DataMember&gt;EyeGlassesDolar&lt;/DataMember&gt;&lt;Key&gt;EyeGlassesDolar&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column8&gt;&lt;Column9 ID="TotalReal"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Total Real&lt;/Caption&gt;&lt;DataMember&gt;TotalReal&lt;/DataMember&gt;&lt;Key&gt;TotalReal&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column9&gt;&lt;Column10 ID="TotalDolar"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Total Dolar&lt;/Caption&gt;&lt;DataMember&gt;TotalDolar&lt;/DataMember&gt;&lt;Key&gt;TotalDolar&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column10&gt;&lt;Column11 ID="AmountInWords"&gt;&lt;Caption&gt;AmountInWords&lt;/Caption&gt;&lt;DataMember&gt;AmountInWords&lt;/DataMember&gt;&lt;Key&gt;AmountInWords&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column11&gt;&lt;Column12 ID="AmountFigureReal"&gt;&lt;Caption&gt;AmountFigureReal&lt;/Caption&gt;&lt;DataMember&gt;AmountFigureReal&lt;/DataMember&gt;&lt;Key&gt;AmountFigureReal&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column12&gt;&lt;Column13 ID="AmountFigureDolar"&gt;&lt;Caption&gt;AmountFigureDolar&lt;/Caption&gt;&lt;DataMember&gt;AmountFigureDolar&lt;/DataMember&gt;&lt;Key&gt;AmountFigureDolar&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column13&gt;&lt;Column14 ID="IsCurrency"&gt;&lt;Caption&gt;IsCurrency&lt;/Caption&gt;&lt;DataMember&gt;IsCurrency&lt;/DataMember&gt;&lt;Key&gt;IsCurrency&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column14&gt;&lt;Column15 ID="IsDonation"&gt;&lt;Caption&gt;IsDonation&lt;/Caption&gt;&lt;DataMember&gt;IsDonation&lt;/DataMember&gt;&lt;Key&gt;IsDonation&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column15&gt;&lt;Column16 ID="DonationID"&gt;&lt;Caption&gt;DonationID&lt;/Caption&gt;&lt;DataMember&gt;DonationID&lt;/DataMember&gt;&lt;Key&gt;DonationID&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column16&gt;&lt;Column17 ID="PayBySelf"&gt;&lt;Caption&gt;Pay By Self&lt;/Caption&gt;&lt;DataMember&gt;PayBySelf&lt;/DataMember&gt;&lt;Key&gt;PayBySelf&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column17&gt;&lt;Column18 ID="PayByDonation"&gt;&lt;Caption&gt;Pay By Donation&lt;/Caption&gt;&lt;DataMember&gt;PayByDonation&lt;/DataMember&gt;&lt;Key&gt;PayByDonation&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column18&gt;&lt;Column19 ID="IsPaid"&gt;&lt;Caption&gt;IsPaid&lt;/Caption&gt;&lt;DataMember&gt;IsPaid&lt;/DataMember&gt;&lt;Key&gt;IsPaid&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column19&gt;&lt;Column20 ID="ReceiptNote"&gt;&lt;Caption&gt;ReceiptNote&lt;/Caption&gt;&lt;DataMember&gt;ReceiptNote&lt;/DataMember&gt;&lt;Key&gt;ReceiptNote&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column20&gt;&lt;Column21 ID="UserID"&gt;&lt;Caption&gt;UserID&lt;/Caption&gt;&lt;DataMember&gt;UserID&lt;/DataMember&gt;&lt;Key&gt;UserID&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column21&gt;&lt;Column22 ID="UserName"&gt;&lt;Caption&gt;UserName&lt;/Caption&gt;&lt;DataMember&gt;UserName&lt;/DataMember&gt;&lt;Key&gt;UserName&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column22&gt;&lt;Column23 ID="CusName"&gt;&lt;Caption&gt;Name&lt;/Caption&gt;&lt;DataMember&gt;CusName&lt;/DataMember&gt;&lt;Key&gt;CusName&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;Width&gt;143&lt;/Width&gt;&lt;CellStyle&gt;&lt;Font&gt;Limon S1, 18pt&lt;/Font&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column23&gt;&lt;Column24 ID="Sex"&gt;&lt;Caption&gt;Sex&lt;/Caption&gt;&lt;DataMember&gt;Sex&lt;/DataMember&gt;&lt;Key&gt;Sex&lt;/Key&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;Width&gt;64&lt;/Width&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column24&gt;&lt;Column25 ID="Age"&gt;&lt;Caption&gt;Age&lt;/Caption&gt;&lt;DataMember&gt;Age&lt;/DataMember&gt;&lt;Key&gt;Age&lt;/Key&gt;&lt;Position&gt;25&lt;/Position&gt;&lt;Width&gt;49&lt;/Width&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column25&gt;&lt;Column26 ID="Occupation"&gt;&lt;Caption&gt;Occupation&lt;/Caption&gt;&lt;DataMember&gt;Occupation&lt;/DataMember&gt;&lt;Key&gt;Occupation&lt;/Key&gt;&lt;Position&gt;26&lt;/Position&gt;&lt;Width&gt;98&lt;/Width&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column26&gt;&lt;Column27 ID="Address"&gt;&lt;Caption&gt;Address&lt;/Caption&gt;&lt;DataMember&gt;Address&lt;/DataMember&gt;&lt;Key&gt;Address&lt;/Key&gt;&lt;Position&gt;27&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column27&gt;&lt;Column28 ID="Donation"&gt;&lt;Caption&gt;Supported&lt;/Caption&gt;&lt;DataMember&gt;DonationName&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;Key&gt;Donation&lt;/Key&gt;&lt;Position&gt;28&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column28&gt;&lt;Column29 ID="ReadyMod$"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Ready Mod $&lt;/Caption&gt;&lt;DataMember&gt;ReadyModDolar&lt;/DataMember&gt;&lt;Key&gt;ReadyMod$&lt;/Key&gt;&lt;Position&gt;29&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column29&gt;&lt;Column30 ID="ReadyModR"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Ready Mod R&lt;/Caption&gt;&lt;DataMember&gt;ReadyModR&lt;/DataMember&gt;&lt;Key&gt;ReadyModR&lt;/Key&gt;&lt;Position&gt;30&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column30&gt;&lt;Column31 ID="Spectacle$"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Spectacle $&lt;/Caption&gt;&lt;DataMember&gt;SpectacleDolar&lt;/DataMember&gt;&lt;Key&gt;Spectacle$&lt;/Key&gt;&lt;Position&gt;31&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column31&gt;&lt;Column32 ID="SpectacleR"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Spectacle R&lt;/Caption&gt;&lt;DataMember&gt;SpectacleR&lt;/DataMember&gt;&lt;Key&gt;SpectacleR&lt;/Key&gt;&lt;Position&gt;32&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column32&gt;&lt;Column33 ID="Other$"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Other $&lt;/Caption&gt;&lt;DataMember&gt;OtherDolar&lt;/DataMember&gt;&lt;Key&gt;Other$&lt;/Key&gt;&lt;Position&gt;33&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column33&gt;&lt;Column34 ID="OtherR"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Other R&lt;/Caption&gt;&lt;DataMember&gt;OtherR&lt;/DataMember&gt;&lt;Key&gt;OtherR&lt;/Key&gt;&lt;Position&gt;34&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column34&gt;&lt;Column35 ID="ReturnReal"&gt;&lt;Caption&gt;ReturnReal&lt;/Caption&gt;&lt;DataMember&gt;ReturnReal&lt;/DataMember&gt;&lt;Key&gt;ReturnReal&lt;/Key&gt;&lt;Position&gt;35&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column35&gt;&lt;Column36 ID="ReturnDolar"&gt;&lt;Caption&gt;ReturnDolar&lt;/Caption&gt;&lt;DataMember&gt;ReturnDolar&lt;/DataMember&gt;&lt;Key&gt;ReturnDolar&lt;/Key&gt;&lt;Position&gt;36&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column36&gt;&lt;Column37 ID="FundRaisingR"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Fund Raising R&lt;/Caption&gt;&lt;DataMember&gt;FundRaisingR&lt;/DataMember&gt;&lt;Key&gt;FundRaisingR&lt;/Key&gt;&lt;Position&gt;37&lt;/Position&gt;&lt;Width&gt;116&lt;/Width&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column37&gt;&lt;Column38 ID="FundRaising$"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Fund Raising $&lt;/Caption&gt;&lt;DataMember&gt;FundRaisingDolar&lt;/DataMember&gt;&lt;Key&gt;FundRaising$&lt;/Key&gt;&lt;Position&gt;38&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column38&gt;&lt;Column39 ID="IncomType"&gt;&lt;Caption&gt;IncomType&lt;/Caption&gt;&lt;DataMember&gt;IncomType&lt;/DataMember&gt;&lt;Key&gt;IncomType&lt;/Key&gt;&lt;Position&gt;39&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column39&gt;&lt;Column40 ID="Glasses"&gt;&lt;Caption&gt;Glasses&lt;/Caption&gt;&lt;DataMember&gt;Glasses&lt;/DataMember&gt;&lt;Key&gt;Glasses&lt;/Key&gt;&lt;Position&gt;40&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column40&gt;&lt;Column41 ID="DonateAmount"&gt;&lt;Caption&gt;Donate Amount&lt;/Caption&gt;&lt;DataMember&gt;DonateAmount&lt;/DataMember&gt;&lt;Key&gt;DonateAmount&lt;/Key&gt;&lt;Position&gt;41&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;/Column41&gt;&lt;Column42 ID="PaymentType"&gt;&lt;Caption&gt;PaymentType&lt;/Caption&gt;&lt;DataMember&gt;PaymentType&lt;/DataMember&gt;&lt;Key&gt;PaymentType&lt;/Key&gt;&lt;Position&gt;42&lt;/Position&gt;&lt;/Column42&gt;&lt;/Columns&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;CellLayoutMode&gt;UseColumnSets&lt;/CellLayoutMode&gt;&lt;ChildTables Collection="true" ElementName="Table"&gt;&lt;Table0 ID="Table1"&gt;&lt;DataMember&gt;ReceiptNo&lt;/DataMember&gt;&lt;GroupTotals&gt;Always&lt;/GroupTotals&gt;&lt;Key&gt;Table1&lt;/Key&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ReceiptDID"&gt;&lt;Caption&gt;Invoice DID&lt;/Caption&gt;&lt;DataMember&gt;ReceiptDID&lt;/DataMember&gt;&lt;Key&gt;ReceiptDID&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="ReceiptNo"&gt;&lt;Caption&gt;Invoice No&lt;/Caption&gt;&lt;DataMember&gt;ReceiptNo&lt;/DataMember&gt;&lt;Key&gt;ReceiptNo&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;118&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="Barcode"&gt;&lt;Caption&gt;Barcode No&lt;/Caption&gt;&lt;DataMember&gt;Barcode&lt;/DataMember&gt;&lt;Key&gt;Barcode&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;106&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="ItemName"&gt;&lt;Caption&gt;Item Name&lt;/Caption&gt;&lt;DataMember&gt;ItemName&lt;/DataMember&gt;&lt;Key&gt;ItemName&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;157&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="ItemPrice"&gt;&lt;Caption&gt;Price&lt;/Caption&gt;&lt;DataMember&gt;ItemPrice&lt;/DataMember&gt;&lt;Key&gt;ItemPrice&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Width&gt;48&lt;/Width&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;/Column4&gt;&lt;Column5 ID="ItemQTY"&gt;&lt;Caption&gt;Quanlity&lt;/Caption&gt;&lt;DataMember&gt;ItemQTY&lt;/DataMember&gt;&lt;Key&gt;ItemQTY&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Width&gt;84&lt;/Width&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;/Column5&gt;&lt;Column6 ID="SubTotal"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Sub Total Real&lt;/Caption&gt;&lt;DataMember&gt;SubTotalReal&lt;/DataMember&gt;&lt;Key&gt;SubTotal&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;SelectableCells&gt;All&lt;/SelectableCells&gt;&lt;Width&gt;118&lt;/Width&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;/Column6&gt;&lt;Column7 ID="SubTotalDolar"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Sub Total Dolar&lt;/Caption&gt;&lt;DataMember&gt;SubTotalDolar&lt;/DataMember&gt;&lt;Key&gt;SubTotalDolar&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Width&gt;124&lt;/Width&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;/Column7&gt;&lt;Column8 ID="IncomeID"&gt;&lt;Caption&gt;IncomeID&lt;/Caption&gt;&lt;DataMember&gt;IncomeID&lt;/DataMember&gt;&lt;Key&gt;IncomeID&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column8&gt;&lt;Column9 ID="ReceiptDate"&gt;&lt;Caption&gt;Invoice Date&lt;/Caption&gt;&lt;DataMember&gt;ReceiptDate&lt;/DataMember&gt;&lt;Key&gt;ReceiptDate&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column9&gt;&lt;/Columns&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;GroupCondition /&gt;&lt;RowHeaderContent&gt;RowPosition&lt;/RowHeaderContent&gt;&lt;RowHeight&gt;25&lt;/RowHeight&gt;&lt;TotalRow&gt;True&lt;/TotalRow&gt;&lt;TotalRowFormatStyle&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/TotalRowFormatStyle&gt;&lt;/Table0&gt;&lt;/ChildTables&gt;&lt;ColumnSets Collection="true" ElementName="ColumnSet"&gt;&lt;ColumnSet0 ID="Receipt information"&gt;&lt;Key&gt;Receipt information&lt;/Key&gt;&lt;Caption&gt;Invoice Information&lt;/Caption&gt;&lt;ColumnCount&gt;10&lt;/ColumnCount&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;ForeColor&gt;Red&lt;/ForeColor&gt;&lt;FontSize&gt;12&lt;/FontSize&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/HeaderStyle&gt;&lt;ColumnWidth0&gt;137&lt;/ColumnWidth0&gt;&lt;ColumnWidth1&gt;108&lt;/ColumnWidth1&gt;&lt;ColumnWidth2&gt;139&lt;/ColumnWidth2&gt;&lt;ColumnWidth3&gt;140&lt;/ColumnWidth3&gt;&lt;ColumnWidth4&gt;143&lt;/ColumnWidth4&gt;&lt;ColumnWidth5&gt;49&lt;/ColumnWidth5&gt;&lt;ColumnWidth6&gt;64&lt;/ColumnWidth6&gt;&lt;ColumnWidth7&gt;98&lt;/ColumnWidth7&gt;&lt;ColumnWidth8&gt;100&lt;/ColumnWidth8&gt;&lt;ColumnWidth9&gt;100&lt;/ColumnWidth9&gt;&lt;EntriesCount&gt;10&lt;/EntriesCount&gt;&lt;ColIndex0&gt;1&lt;/ColIndex0&gt;&lt;Row0&gt;0&lt;/Row0&gt;&lt;Col0&gt;2&lt;/Col0&gt;&lt;RowSpan0&gt;1&lt;/RowSpan0&gt;&lt;ColSpan0&gt;1&lt;/ColSpan0&gt;&lt;ColIndex1&gt;2&lt;/ColIndex1&gt;&lt;Row1&gt;0&lt;/Row1&gt;&lt;Col1&gt;1&lt;/Col1&gt;&lt;RowSpan1&gt;1&lt;/RowSpan1&gt;&lt;ColSpan1&gt;1&lt;/ColSpan1&gt;&lt;ColIndex2&gt;3&lt;/ColIndex2&gt;&lt;Row2&gt;0&lt;/Row2&gt;&lt;Col2&gt;0&lt;/Col2&gt;&lt;RowSpan2&gt;1&lt;/RowSpan2&gt;&lt;ColSpan2&gt;1&lt;/ColSpan2&gt;&lt;ColIndex3&gt;4&lt;/ColIndex3&gt;&lt;Row3&gt;0&lt;/Row3&gt;&lt;Col3&gt;3&lt;/Col3&gt;&lt;RowSpan3&gt;1&lt;/RowSpan3&gt;&lt;ColSpan3&gt;1&lt;/ColSpan3&gt;&lt;ColIndex4&gt;23&lt;/ColIndex4&gt;&lt;Row4&gt;0&lt;/Row4&gt;&lt;Col4&gt;4&lt;/Col4&gt;&lt;RowSpan4&gt;1&lt;/RowSpan4&gt;&lt;ColSpan4&gt;1&lt;/ColSpan4&gt;&lt;ColIndex5&gt;24&lt;/ColIndex5&gt;&lt;Row5&gt;0&lt;/Row5&gt;&lt;Col5&gt;6&lt;/Col5&gt;&lt;RowSpan5&gt;1&lt;/RowSpan5&gt;&lt;ColSpan5&gt;1&lt;/ColSpan5&gt;&lt;ColIndex6&gt;25&lt;/ColIndex6&gt;&lt;Row6&gt;0&lt;/Row6&gt;&lt;Col6&gt;5&lt;/Col6&gt;&lt;RowSpan6&gt;1&lt;/RowSpan6&gt;&lt;ColSpan6&gt;1&lt;/ColSpan6&gt;&lt;ColIndex7&gt;26&lt;/ColIndex7&gt;&lt;Row7&gt;0&lt;/Row7&gt;&lt;Col7&gt;7&lt;/Col7&gt;&lt;RowSpan7&gt;1&lt;/RowSpan7&gt;&lt;ColSpan7&gt;1&lt;/ColSpan7&gt;&lt;ColIndex8&gt;27&lt;/ColIndex8&gt;&lt;Row8&gt;0&lt;/Row8&gt;&lt;Col8&gt;8&lt;/Col8&gt;&lt;RowSpan8&gt;1&lt;/RowSpan8&gt;&lt;ColSpan8&gt;1&lt;/ColSpan8&gt;&lt;ColIndex9&gt;40&lt;/ColIndex9&gt;&lt;Row9&gt;0&lt;/Row9&gt;&lt;Col9&gt;9&lt;/Col9&gt;&lt;RowSpan9&gt;1&lt;/RowSpan9&gt;&lt;ColSpan9&gt;1&lt;/ColSpan9&gt;&lt;/ColumnSet0&gt;&lt;ColumnSet1 ID="Total"&gt;&lt;Key&gt;Total&lt;/Key&gt;&lt;Caption&gt;Total&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;ForeColor&gt;Red&lt;/ForeColor&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;ColumnWidth0&gt;100&lt;/ColumnWidth0&gt;&lt;ColumnWidth1&gt;100&lt;/ColumnWidth1&gt;&lt;EntriesCount&gt;2&lt;/EntriesCount&gt;&lt;ColIndex0&gt;9&lt;/ColIndex0&gt;&lt;Row0&gt;0&lt;/Row0&gt;&lt;Col0&gt;0&lt;/Col0&gt;&lt;RowSpan0&gt;1&lt;/RowSpan0&gt;&lt;ColSpan0&gt;1&lt;/ColSpan0&gt;&lt;ColIndex1&gt;10&lt;/ColIndex1&gt;&lt;Row1&gt;0&lt;/Row1&gt;&lt;Col1&gt;1&lt;/Col1&gt;&lt;RowSpan1&gt;1&lt;/RowSpan1&gt;&lt;ColSpan1&gt;1&lt;/ColSpan1&gt;&lt;/ColumnSet1&gt;&lt;ColumnSet2 ID="Medicine"&gt;&lt;Key&gt;Medicine&lt;/Key&gt;&lt;Caption&gt;Medicince&lt;/Caption&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;ForeColor&gt;Red&lt;/ForeColor&gt;&lt;FontSize&gt;12&lt;/FontSize&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/HeaderStyle&gt;&lt;ColumnWidth0&gt;100&lt;/ColumnWidth0&gt;&lt;ColumnWidth1&gt;100&lt;/ColumnWidth1&gt;&lt;EntriesCount&gt;2&lt;/EntriesCount&gt;&lt;ColIndex0&gt;5&lt;/ColIndex0&gt;&lt;Row0&gt;0&lt;/Row0&gt;&lt;Col0&gt;0&lt;/Col0&gt;&lt;RowSpan0&gt;1&lt;/RowSpan0&gt;&lt;ColSpan0&gt;1&lt;/ColSpan0&gt;&lt;ColIndex1&gt;6&lt;/ColIndex1&gt;&lt;Row1&gt;0&lt;/Row1&gt;&lt;Col1&gt;1&lt;/Col1&gt;&lt;RowSpan1&gt;1&lt;/RowSpan1&gt;&lt;ColSpan1&gt;1&lt;/ColSpan1&gt;&lt;/ColumnSet2&gt;&lt;ColumnSet3 ID="Glasses"&gt;&lt;Key&gt;Glasses&lt;/Key&gt;&lt;Caption&gt;Glasses&lt;/Caption&gt;&lt;ColumnCount&gt;6&lt;/ColumnCount&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;ForeColor&gt;Red&lt;/ForeColor&gt;&lt;FontSize&gt;12&lt;/FontSize&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/HeaderStyle&gt;&lt;ColumnWidth0&gt;116&lt;/ColumnWidth0&gt;&lt;ColumnWidth1&gt;100&lt;/ColumnWidth1&gt;&lt;ColumnWidth2&gt;100&lt;/ColumnWidth2&gt;&lt;ColumnWidth3&gt;100&lt;/ColumnWidth3&gt;&lt;ColumnWidth4&gt;100&lt;/ColumnWidth4&gt;&lt;ColumnWidth5&gt;100&lt;/ColumnWidth5&gt;&lt;EntriesCount&gt;6&lt;/EntriesCount&gt;&lt;ColIndex0&gt;7&lt;/ColIndex0&gt;&lt;Row0&gt;0&lt;/Row0&gt;&lt;Col0&gt;0&lt;/Col0&gt;&lt;RowSpan0&gt;1&lt;/RowSpan0&gt;&lt;ColSpan0&gt;1&lt;/ColSpan0&gt;&lt;ColIndex1&gt;8&lt;/ColIndex1&gt;&lt;Row1&gt;0&lt;/Row1&gt;&lt;Col1&gt;1&lt;/Col1&gt;&lt;RowSpan1&gt;1&lt;/RowSpan1&gt;&lt;ColSpan1&gt;1&lt;/ColSpan1&gt;&lt;ColIndex2&gt;29&lt;/ColIndex2&gt;&lt;Row2&gt;0&lt;/Row2&gt;&lt;Col2&gt;3&lt;/Col2&gt;&lt;RowSpan2&gt;1&lt;/RowSpan2&gt;&lt;ColSpan2&gt;1&lt;/ColSpan2&gt;&lt;ColIndex3&gt;30&lt;/ColIndex3&gt;&lt;Row3&gt;0&lt;/Row3&gt;&lt;Col3&gt;2&lt;/Col3&gt;&lt;RowSpan3&gt;1&lt;/RowSpan3&gt;&lt;ColSpan3&gt;1&lt;/ColSpan3&gt;&lt;ColIndex4&gt;31&lt;/ColIndex4&gt;&lt;Row4&gt;0&lt;/Row4&gt;&lt;Col4&gt;5&lt;/Col4&gt;&lt;RowSpan4&gt;1&lt;/RowSpan4&gt;&lt;ColSpan4&gt;1&lt;/ColSpan4&gt;&lt;ColIndex5&gt;32&lt;/ColIndex5&gt;&lt;Row5&gt;0&lt;/Row5&gt;&lt;Col5&gt;4&lt;/Col5&gt;&lt;RowSpan5&gt;1&lt;/RowSpan5&gt;&lt;ColSpan5&gt;1&lt;/ColSpan5&gt;&lt;/ColumnSet3&gt;&lt;ColumnSet4 ID="FundRaising"&gt;&lt;Key&gt;FundRaising&lt;/Key&gt;&lt;Caption&gt;Fund Raising&lt;/Caption&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;ForeColor&gt;Red&lt;/ForeColor&gt;&lt;FontSize&gt;12&lt;/FontSize&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/HeaderStyle&gt;&lt;ColumnWidth0&gt;116&lt;/ColumnWidth0&gt;&lt;ColumnWidth1&gt;100&lt;/ColumnWidth1&gt;&lt;EntriesCount&gt;2&lt;/EntriesCount&gt;&lt;ColIndex0&gt;37&lt;/ColIndex0&gt;&lt;Row0&gt;0&lt;/Row0&gt;&lt;Col0&gt;0&lt;/Col0&gt;&lt;RowSpan0&gt;1&lt;/RowSpan0&gt;&lt;ColSpan0&gt;1&lt;/ColSpan0&gt;&lt;ColIndex1&gt;38&lt;/ColIndex1&gt;&lt;Row1&gt;0&lt;/Row1&gt;&lt;Col1&gt;1&lt;/Col1&gt;&lt;RowSpan1&gt;1&lt;/RowSpan1&gt;&lt;ColSpan1&gt;1&lt;/ColSpan1&gt;&lt;/ColumnSet4&gt;&lt;ColumnSet5 ID="Other"&gt;&lt;Key&gt;Other&lt;/Key&gt;&lt;Caption&gt;Other&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;ForeColor&gt;Red&lt;/ForeColor&gt;&lt;FontSize&gt;12&lt;/FontSize&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/HeaderStyle&gt;&lt;ColumnWidth0&gt;100&lt;/ColumnWidth0&gt;&lt;ColumnWidth1&gt;100&lt;/ColumnWidth1&gt;&lt;EntriesCount&gt;2&lt;/EntriesCount&gt;&lt;ColIndex0&gt;33&lt;/ColIndex0&gt;&lt;Row0&gt;0&lt;/Row0&gt;&lt;Col0&gt;1&lt;/Col0&gt;&lt;RowSpan0&gt;1&lt;/RowSpan0&gt;&lt;ColSpan0&gt;1&lt;/ColSpan0&gt;&lt;ColIndex1&gt;34&lt;/ColIndex1&gt;&lt;Row1&gt;0&lt;/Row1&gt;&lt;Col1&gt;0&lt;/Col1&gt;&lt;RowSpan1&gt;1&lt;/RowSpan1&gt;&lt;ColSpan1&gt;1&lt;/ColSpan1&gt;&lt;/ColumnSet5&gt;&lt;ColumnSet6 ID="Pay partial"&gt;&lt;Key&gt;Pay partial&lt;/Key&gt;&lt;Caption&gt;Pay partial&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;HeaderStyle&gt;&lt;ForeColor&gt;Red&lt;/ForeColor&gt;&lt;FontSize&gt;10&lt;/FontSize&gt;&lt;/HeaderStyle&gt;&lt;ColumnWidth0&gt;100&lt;/ColumnWidth0&gt;&lt;ColumnWidth1&gt;100&lt;/ColumnWidth1&gt;&lt;EntriesCount&gt;2&lt;/EntriesCount&gt;&lt;ColIndex0&gt;28&lt;/ColIndex0&gt;&lt;Row0&gt;0&lt;/Row0&gt;&lt;Col0&gt;0&lt;/Col0&gt;&lt;RowSpan0&gt;1&lt;/RowSpan0&gt;&lt;ColSpan0&gt;1&lt;/ColSpan0&gt;&lt;ColIndex1&gt;41&lt;/ColIndex1&gt;&lt;Row1&gt;0&lt;/Row1&gt;&lt;Col1&gt;1&lt;/Col1&gt;&lt;RowSpan1&gt;1&lt;/RowSpan1&gt;&lt;ColSpan1&gt;1&lt;/ColSpan1&gt;&lt;/ColumnSet6&gt;&lt;/ColumnSets&gt;&lt;ColumnSetRowCount&gt;1&lt;/ColumnSetRowCount&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="IsPaid"&gt;&lt;ColIndex&gt;19&lt;/ColIndex&gt;&lt;FormatStyle&gt;&lt;BackColor&gt;255, 192, 128&lt;/BackColor&gt;&lt;/FormatStyle&gt;&lt;Value1&gt;1&lt;/Value1&gt;&lt;Value2&gt;1&lt;/Value2&gt;&lt;Key&gt;IsPaid&lt;/Key&gt;&lt;/Condition0&gt;&lt;Condition1 ID="IsPaidCancel"&gt;&lt;ColIndex&gt;19&lt;/ColIndex&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Red&lt;/ForeColor&gt;&lt;FontStrikeout&gt;True&lt;/FontStrikeout&gt;&lt;/FormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;ForeColor&gt;Red&lt;/ForeColor&gt;&lt;FontStrikeout&gt;True&lt;/FontStrikeout&gt;&lt;/PreviewRowFormatStyle&gt;&lt;Value1&gt;2&lt;/Value1&gt;&lt;Value2&gt;2&lt;/Value2&gt;&lt;Key&gt;IsPaidCancel&lt;/Key&gt;&lt;/Condition1&gt;&lt;Condition2 ID="IsNilPayment"&gt;&lt;ColIndex&gt;42&lt;/ColIndex&gt;&lt;FormatStyle&gt;&lt;BackColor&gt;192, 192, 255&lt;/BackColor&gt;&lt;/FormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;BackColor&gt;192, 192, 255&lt;/BackColor&gt;&lt;/PreviewRowFormatStyle&gt;&lt;Value1&gt;2&lt;/Value1&gt;&lt;Value2&gt;2&lt;/Value2&gt;&lt;Key&gt;IsNilPayment&lt;/Key&gt;&lt;/Condition2&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;RowHeaderContent&gt;RowPosition&lt;/RowHeaderContent&gt;&lt;RowHeaderWidth&gt;50&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;30&lt;/RowHeight&gt;&lt;TotalRow&gt;True&lt;/TotalRow&gt;&lt;TableHeaderFormatStyle&gt;&lt;ForeColor&gt;0, 0, 192&lt;/ForeColor&gt;&lt;FontSize&gt;12&lt;/FontSize&gt;&lt;/TableHeaderFormatStyle&gt;&lt;/RootTable&gt;&lt;FormatStyles Collection="true" ElementName="Style"&gt;&lt;Style0 ID="FormatStyle1"&gt;&lt;BackColor&gt;Red&lt;/BackColor&gt;&lt;Key&gt;FormatStyle1&lt;/Key&gt;&lt;/Style0&gt;&lt;/FormatStyles&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="VSForOpticalshop.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>530, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BtnEditeDateReceipt.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAwBJREFUSEvt
+        lVtozmEcx2dzqjmMlg1zWtYwMjkNy6FFWi0aU9uFC66UFjfkZiW7cEOKHFIOKbEcIiWhcIE7XDjNKacm
+        NxO5QvP5Pvv+X/buP69pr6t969P7/H7P8/6//+d5fs/zz+hVT6utra0vjIVsp9IvG96He/AWqt2VPtn0
+        KdQ6LoTnUBMGpEM8fLxN3kCh08pPcL5SwTioh609yEvYAavhBUy0t/xKoFmNZmiEuAd0l33wHbaDZjsP
+        qkEvUmTjQdCiRmt4lSSRL4UyhynF2DGgPa1zXAYy1+9KeAXT4Bw0djImPgpzQMvfAFOgyd2xor8AnkAw
+        jUSsGct8LmjZf8BhyEwY8zsUcmAJbIRcyId1UAWDYXh44m8iNxoeQx1kKXZXEPF8kPk1OAh9oo7IuBI0
+        QBVZBCegCWbDCHgNa8KfLOJRINNa0EVxEna5O4i4H1yF45Dp9C9jibZmrM1/BnqYZqry11IO87AgYpk+
+        gsj0NOhlszwkMj0D32Cx0+0i0QrZ8B72g/blkrvVvxe0jDuhBfKcvwGf4TrcBdVGsulZ0EwvQmdjN4OI
+        tbeqQJ03VapmVeLuhMh9BK2EqlbX4XrIcV9kegwy4TzEG/OrItA+ao+Xgwx1+NeC9lj7X+Gx2o53aku0
+        t4BmvRlkqiMTTN3/R2PdpTNhMqwCvamqVEWn/FSY5LFajQ+Qr1iirerXtshEy54oJOdSLrWKRLfNBtgG
+        FXDZ3UHEK0DSqujI5YGOoIqog6lE/FfG/f27DMJnLMpFIt4Ekb7AQ7gCuiq1OvUeGkSc2rgrMa4c9F3d
+        DSNhARS4OyFyQ+AONDj178b6E6jwFsIpOALaZ+XibjOZ34Yqx903pl9XqAxKHavgVLWfYGkYFCOPS13V
+        caJPN5c+acVOKTcLdG7LnUopxsYbw0DYA4egBord/go33Y7QMXqQlOuKA6BnxRprybQsOkIynQ66vdTu
+        CfSsC7DIlu0icQs0K31B0oVuvVxbtovEAJgBOn/posOXrVf/URkZPwGd0/SXiuTaRAAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="BtnPrintInvoice.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAApRJREFUSEvN
+        lk2IjWEUx2caRvlaiCbERIlZKhmkUELslGInYhYzG6UsfCsZlJJsiKixIBYWYzs1G9RMPmIj5FsWKJPI
+        1/X7Xecdb3fGfd87H5p//brnPM9zzv+d2/ucO1UjToVC4clQEO3yiyJ1GLYPEGsL0S6/LEILIq1Y1tog
+        0vyyCFk8EVZWiDWDNt7zJ6xIu2FwxpFWLGttEGl+WYQs3gL9vrEl3IW6KB8S43nQ31tbymYYHeX5jNmv
+        htWwK4U6Bem1SrBWpddWQXXYFo0PwQfoSvER7pWsVYK19kivme8P26LxbWiOdNiERwvcirS44NM0RTqk
+        ou9VeA6+K03QFVvDbvwG1Dr4r8ZzYQ34Apc3Jl4EeyH9Rg4EezRGW/v+25jPevgJv+AhvIZX8AA+g2ff
+        w+PA2LWv4Hm/2rcR2+MHzIjeZY3HgSaqAc7DaegdCHx0g02kO9a+wWLw/l6A2aDsNTbO9DH2OrVEaj4J
+        1Cy4CCchy/gLLIUT0AaTQdW7r4j7XCcHyCdI5u4zUFPhEtgsy7gHlsMxuAxjQL2EpK9nDni+KJJkZCZz
+        15dCTYArcBSyjJ1K/hYfhOux5rdwHJK+evwdmaVicxn0RHwDfJAs43ewFnZCR6w5Nrca5xKHN8KjiDth
+        B2QZP4UN4F+WrDm1Wo1zicMadUasyTbIMr4P/jRqXvzvks9WuGacSxw+C2cids6uhyzjm9AMjeDVqoFN
+        8ML9XOLwHbCpxd9hIaSNvS4+TNq4HfZBHaiZ4K1wiMzxTFlxyAHitJkP00BNh17jRKRpY4fMOfCGrIDa
+        WO+AI8ZlxSGvkE9eC1PA6zAKsoydze3FjZRYWwINkVYui6Fokojcr7st4vFQU9wYuaqq+g1eq20BcjA9
+        jgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="BtnEditInvoice.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAwBJREFUSEvt
+        lVtozmEcx2dzqjmMlg1zWtYwMjkNy6FFWi0aU9uFC66UFjfkZiW7cEOKHFIOKbEcIiWhcIE7XDjNKacm
+        NxO5QvP5Pvv+X/buP69pr6t969P7/H7P8/6//+d5fs/zz+hVT6utra0vjIVsp9IvG96He/AWqt2VPtn0
+        KdQ6LoTnUBMGpEM8fLxN3kCh08pPcL5SwTioh609yEvYAavhBUy0t/xKoFmNZmiEuAd0l33wHbaDZjsP
+        qkEvUmTjQdCiRmt4lSSRL4UyhynF2DGgPa1zXAYy1+9KeAXT4Bw0djImPgpzQMvfAFOgyd2xor8AnkAw
+        jUSsGct8LmjZf8BhyEwY8zsUcmAJbIRcyId1UAWDYXh44m8iNxoeQx1kKXZXEPF8kPk1OAh9oo7IuBI0
+        QBVZBCegCWbDCHgNa8KfLOJRINNa0EVxEna5O4i4H1yF45Dp9C9jibZmrM1/BnqYZqry11IO87AgYpk+
+        gsj0NOhlszwkMj0D32Cx0+0i0QrZ8B72g/blkrvVvxe0jDuhBfKcvwGf4TrcBdVGsulZ0EwvQmdjN4OI
+        tbeqQJ03VapmVeLuhMh9BK2EqlbX4XrIcV9kegwy4TzEG/OrItA+ao+Xgwx1+NeC9lj7X+Gx2o53aku0
+        t4BmvRlkqiMTTN3/R2PdpTNhMqwCvamqVEWn/FSY5LFajQ+Qr1iirerXtshEy54oJOdSLrWKRLfNBtgG
+        FXDZ3UHEK0DSqujI5YGOoIqog6lE/FfG/f27DMJnLMpFIt4Ekb7AQ7gCuiq1OvUeGkSc2rgrMa4c9F3d
+        DSNhARS4OyFyQ+AONDj178b6E6jwFsIpOALaZ+XibjOZ34Yqx903pl9XqAxKHavgVLWfYGkYFCOPS13V
+        caJPN5c+acVOKTcLdG7LnUopxsYbw0DYA4egBord/go33Y7QMXqQlOuKA6BnxRprybQsOkIynQ66vdTu
+        CfSsC7DIlu0icQs0K31B0oVuvVxbtovEAJgBOn/posOXrVf/URkZPwGd0/SXiuTaRAAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="BtnNewReceipt1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAm5JREFUSEvt
+        ls+LTmEUx99RhmJGyUbKwkKULGYU5fcfYKFYkB+7ofwohdHMUpam2Mh+VsqUrPzYENKYUShWiCykyLCx
+        4fX53M7DvTNm3rn3vhbKtz6955znPOe893me+3Qb/6WazeY6uARXamKN3ig7s0hcBF/gOlyuiTUmoDvK
+        Ty+SekB1wGrw6avg3DmgeqL89CKp18ywx7UrajxqqNbLbZKZYdv4UDZQQs5xbtiqfY2JDwarzIvYMOyE
+        v9p4c7AE+iJmU/9IWxr7FBYqg3NqNc4KVGQ4aqhyjdsha6F/pDE/Q/AyeAXvcv6bIPmOmZP881FDlW48
+        Bl59u+EMKG25FSRf9YO2c8aihqrUOL0qXoO/tgAzu4/DLTTgtw9qNX4M5yK2H5S2XA2Sr/aBtnNGo4bL
+        vkZ7RsXE1Pi5dkndgV2wICs4WzEh37jMUn+HldAJXiKP4FMwCi7/3EifKgarNj4Gy8DteQunYFNwGjz1
+        1lsaU4piIN/4GZjs14QnWKWvi/TaaB+F+fAEbkJXzF8Lg2F3w23wj3UaK4hgvvFTuAs+3Qio7EnB/Rft
+        9XACXkO2t/wegI/wGQYi1gWuxnH9gghWXWr39GS4+t7XvvsbwAPXEXGX/WGWlBfBqo2/wtZw9S+CT7cX
+        sqYKeztMhPtbBPON72u30IvItfEWbYXtN9sex+FahI1vgz82zn/sLYYVLVge8x5Af9jO9aC5957qH7Aw
+        xgbgnnZBBNPn7Q1IJ7gVG+EIuLTpcJ2FD/AeRiLm4fK1Oqw/RQy4nxcgneBWHIR5MPl12gGze53qiILV
+        L5C6onD+yvwWTLoyG42fzm2/+R0FnKEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="BtnView.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAA2dJREFUSEvF
+        lluITVEYx8cw05hhMAzlMkLIg0a5TGlSMp6mxiWZB5dSmikTDyTXlyGR24NIyKVcR8aDW26hTIqSSyL3
+        yG0e3O/E8fsv39mdffbep3PmgX/9Wuv71rf3/+y91l7rZMX+k+LGU2FohjQaYWOpkJdnPCwrQ3HNFmFh
+        QIzlW9cneUH6xtR0g4mQZ3GkMfmBsNlCn8hnbHzib2ms3mKfMf0hsBDGwhn4BdOhCmqtLNqY/hiYa6En
+        covhI1RanGycA+/hB2yF5fAApClWprqgMe1M+A5foM5VRojxZOM8eALjLaVcB3gIkcbDYRXIsBoq4RtU
+        WH1AjHnGtFqpd6HZDSaI3ArQw2yCTuAzPgsvoczqlZ8Hb2AAaJ6uGV1tPNG4EDQVn8G3mom3wzkYbLHP
+        +B6UuMoEkdsBX0FzuxIuwR3oCb5XLRE/h/3gzGknwE8odwWIvs94lOV9Ip8LtVBscQGcgkcgg8Q57g76
+        kTdAU9YMqnsLi6wsYJz2BkKtfswh0GttsLTyegtF1l8PN0G1raHUFSH6LTOWqNfNbkGTpXwir0U0yUKf
+        yLfcWOKawBynI3nJMG6sneZghuj7FGFjqZCXZ3wY3BNkwG0jbCwV8krvVTNeYF1P5NyNLExb8gK/MW0r
+        mAENMBsmg1anNnzl2rirEX2fMf1xsAzc6RUlxkONa0C71Ua4D/r462EEvIYqdzWin2z8AaRqS4WK8VDj
+        PbDW+tnQF3ItPg/z1ZfoJxtryzwOXSzuBTqXs12BiTjUeDWctP460KZw2mItJN240OLQOSbXFtwCMl2F
+        3jas8VBjbYNPQWdrfzgCS6EH9AHNd6PVJj+xdqndoOnRSdUP9K/lGDSBe3JavzGUg/ZYGZbAPtgA08Cd
+        zbSl8BvagWdMq9NpJzyGMuiovERfr1v3vQj5EDDWKr5s9U6WGwnFoDNaH7+2Ss2/MwZtn1fgOnh/AhJF
+        vgi0WOsgYKwn/QQXQHNUY9ep5ijoaNwLbr5o48Y6r6XOrjhCjB+ANeA3tkHN4xLYBe9gEOi161WNdncw
+        EceN24M+pQVQEYH+9Oke+iMYNE4UuW2gp3wFbkElipwztr7+obyAKD2DOVab2lgir41Du1eOpTyR84wz
+        Edf4jGdB2CtKhT4TETaWCnl5xv9YsdgfOh06vZI3cjsAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="BGLoadOpticalShop.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

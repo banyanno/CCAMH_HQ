@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSCaseMonitoring" targetNamespace="http://tempuri.org/DSCaseMonitoring.xsd" xmlns:mstns="http://tempuri.org/DSCaseMonitoring.xsd" xmlns="http://tempuri.org/DSCaseMonitoring.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="TakeoDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TakeoDBConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.KTGSYS.My.MySettings.GlobalReference.Default.TakeoDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CCAMH_VIEW_PRESCRIPTIONTableAdapter" GeneratorDataComponentClassName="CCAMH_VIEW_PRESCRIPTIONTableAdapter" Name="CCAMH_VIEW_PRESCRIPTION" UserDataComponentName="CCAMH_VIEW_PRESCRIPTIONTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TakeoDBConnectionString (MySettings)" DbObjectName="CCAMH.dbo.CCAMH_VIEW_PRESCRIPTION" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        PRESC_ID, CLIENT_NO, CLIENT_NAME, CLIENT_AGE, CLIENT_SEX, CLIENT_TYPE, DOCTOR_NAME, DATE_PRESCR, DATE_NEXT_VISIT, IS_DELETE, MED_ID, MED_NAME, MED_M, MED_N, MED_E, MED_QTY, MED_PRICE, 
+                         MED_SUB_TOTAL, PRESCRIPT_NOTE, IS_RECEIVED, REMARK
+FROM            CCAMH_VIEW_PRESCRIPTION</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="PRESC_ID" DataSetColumn="PRESC_ID" />
+              <Mapping SourceColumn="CLIENT_NO" DataSetColumn="CLIENT_NO" />
+              <Mapping SourceColumn="CLIENT_NAME" DataSetColumn="CLIENT_NAME" />
+              <Mapping SourceColumn="CLIENT_AGE" DataSetColumn="CLIENT_AGE" />
+              <Mapping SourceColumn="CLIENT_SEX" DataSetColumn="CLIENT_SEX" />
+              <Mapping SourceColumn="CLIENT_TYPE" DataSetColumn="CLIENT_TYPE" />
+              <Mapping SourceColumn="DOCTOR_NAME" DataSetColumn="DOCTOR_NAME" />
+              <Mapping SourceColumn="DATE_PRESCR" DataSetColumn="DATE_PRESCR" />
+              <Mapping SourceColumn="DATE_NEXT_VISIT" DataSetColumn="DATE_NEXT_VISIT" />
+              <Mapping SourceColumn="IS_DELETE" DataSetColumn="IS_DELETE" />
+              <Mapping SourceColumn="MED_ID" DataSetColumn="MED_ID" />
+              <Mapping SourceColumn="MED_NAME" DataSetColumn="MED_NAME" />
+              <Mapping SourceColumn="MED_M" DataSetColumn="MED_M" />
+              <Mapping SourceColumn="MED_N" DataSetColumn="MED_N" />
+              <Mapping SourceColumn="MED_E" DataSetColumn="MED_E" />
+              <Mapping SourceColumn="MED_QTY" DataSetColumn="MED_QTY" />
+              <Mapping SourceColumn="MED_PRICE" DataSetColumn="MED_PRICE" />
+              <Mapping SourceColumn="MED_SUB_TOTAL" DataSetColumn="MED_SUB_TOTAL" />
+              <Mapping SourceColumn="PRESCRIPT_NOTE" DataSetColumn="PRESCRIPT_NOTE" />
+              <Mapping SourceColumn="IS_RECEIVED" DataSetColumn="IS_RECEIVED" />
+              <Mapping SourceColumn="REMARK" DataSetColumn="REMARK" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="TakeoDBConnectionString (MySettings)" DbObjectName="CCAMH.dbo.CCAMH_VIEW_PRESCRIPTION" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="SelectMedicineByClientNo" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="SelectMedicineByClientNo" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="SelectMedicineByClientNo" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        PRESC_ID, CLIENT_NO, CLIENT_NAME, CLIENT_AGE, CLIENT_SEX, CLIENT_TYPE, DOCTOR_NAME, DATE_PRESCR, DATE_NEXT_VISIT, IS_DELETE, MED_ID, MED_NAME, MED_M, MED_N, MED_E, MED_QTY, MED_PRICE, 
+                         MED_SUB_TOTAL, PRESCRIPT_NOTE, IS_RECEIVED, REMARK
+FROM            CCAMH_VIEW_PRESCRIPTION
+WHERE
+CLIENT_NO=@CLIENT_NO and DATE_PRESCR=@DATE_PRESCR</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="CLIENT_NO" ColumnName="CLIENT_NO" DataSourceName="CCAMH.dbo.CCAMH_VIEW_PRESCRIPTION" DataTypeServer="numeric(18, 0)" DbType="Decimal" Direction="Input" ParameterName="@CLIENT_NO" Precision="18" ProviderType="Decimal" Scale="0" Size="9" SourceColumn="CLIENT_NO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="DATE_PRESCR" ColumnName="DATE_PRESCR" DataSourceName="CCAMH.dbo.CCAMH_VIEW_PRESCRIPTION" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@DATE_PRESCR" Precision="0" ProviderType="DateTime" Scale="0" Size="8" SourceColumn="DATE_PRESCR" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="TakeoDBConnectionString (MySettings)" DbObjectName="CCAMHUAT1.dbo.CCAMH_VIEW_PRESCRIPTION" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBy1" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="SelectAllMedicineByClientNo" GeneratorSourceName="FillBy1" GetMethodModifier="Public" GetMethodName="SelectAllMedicineByClientNo" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="SelectAllMedicineByClientNo" UserSourceName="FillBy1">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        PRESC_ID, CLIENT_NO, CLIENT_NAME, CLIENT_AGE, CLIENT_SEX, CLIENT_TYPE, DOCTOR_NAME, DATE_PRESCR, DATE_NEXT_VISIT, IS_DELETE, MED_ID, MED_NAME, MED_M, MED_N, MED_E, MED_QTY, MED_PRICE, 
+                         MED_SUB_TOTAL, PRESCRIPT_NOTE, IS_RECEIVED, REMARK
+FROM            CCAMH_VIEW_PRESCRIPTION
+
+where  PRESC_ID = (select MAX(PRESC_ID) from CCAMH_VIEW_PRESCRIPTION where  CLIENT_NO =@CLIENT_NO)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="CLIENT_NO" ColumnName="CLIENT_NO" DataSourceName="CCAMHUAT1.dbo.CCAMH_VIEW_PRESCRIPTION" DataTypeServer="numeric(18, 0)" DbType="Decimal" Direction="Input" ParameterName="@CLIENT_NO" Precision="18" ProviderType="Decimal" Scale="0" Size="9" SourceColumn="CLIENT_NO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CCAMH_VIEW_CASE_MONITORINGTableAdapter" GeneratorDataComponentClassName="CCAMH_VIEW_CASE_MONITORINGTableAdapter" Name="CCAMH_VIEW_CASE_MONITORING" UserDataComponentName="CCAMH_VIEW_CASE_MONITORINGTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TakeoDBConnectionString (MySettings)" DbObjectName="CCAMH.dbo.CCAMH_VIEW_CASE_MONITORING" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        CLIENT_MG_ID, CLIENT_NAME_KHM, CLIENT_NAME, CLIENT_SEX, CLIENT_AGE, CLIENT_DOB, CLIENT_DATE_REG, CLIENT_ADVISED_ASSESSMENT_DATE, CLIENT_ADVISED_ASSESSMENT, CLIENT_ADDRESS_PHONE, 
+                         CLIENT_IS_ASSESS_CHECKED, CLIENT_ADVICED_ASSESSMENT_DETAIL, CLIENT_ADVICED_ASSESSMENT_NOTE, FULL_ADDRESS_KH, FULL_ADDRESS_ENG, DIAGNOSIS, DATE_CREATE, IS_CLIENT_NEWOLD, 
+                         IS_MONINTORING, MONITORING_ID, CLIENT_NO, FACILATER, NOTED_BY, DRUG, COUNSELING, ABT, SPECIAL_NEED, THEARAPY_NAME, SELF_SEEEN_BY, OTHER_SEEN_BY, REFER_BY_NGO, REFER_BY_SCHOOL, 
+                         REFER_BY_OTHER, REMARK, CAL_AGE, NUMBER_VISIT
+FROM            CCAMH_VIEW_CASE_MONITORING</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="CLIENT_MG_ID" DataSetColumn="CLIENT_MG_ID" />
+              <Mapping SourceColumn="CLIENT_NAME_KHM" DataSetColumn="CLIENT_NAME_KHM" />
+              <Mapping SourceColumn="CLIENT_NAME" DataSetColumn="CLIENT_NAME" />
+              <Mapping SourceColumn="CLIENT_SEX" DataSetColumn="CLIENT_SEX" />
+              <Mapping SourceColumn="CLIENT_AGE" DataSetColumn="CLIENT_AGE" />
+              <Mapping SourceColumn="CLIENT_DOB" DataSetColumn="CLIENT_DOB" />
+              <Mapping SourceColumn="CLIENT_DATE_REG" DataSetColumn="CLIENT_DATE_REG" />
+              <Mapping SourceColumn="CLIENT_ADVISED_ASSESSMENT_DATE" DataSetColumn="CLIENT_ADVISED_ASSESSMENT_DATE" />
+              <Mapping SourceColumn="CLIENT_ADVISED_ASSESSMENT" DataSetColumn="CLIENT_ADVISED_ASSESSMENT" />
+              <Mapping SourceColumn="CLIENT_ADDRESS_PHONE" DataSetColumn="CLIENT_ADDRESS_PHONE" />
+              <Mapping SourceColumn="CLIENT_IS_ASSESS_CHECKED" DataSetColumn="CLIENT_IS_ASSESS_CHECKED" />
+              <Mapping SourceColumn="CLIENT_ADVICED_ASSESSMENT_DETAIL" DataSetColumn="CLIENT_ADVICED_ASSESSMENT_DETAIL" />
+              <Mapping SourceColumn="CLIENT_ADVICED_ASSESSMENT_NOTE" DataSetColumn="CLIENT_ADVICED_ASSESSMENT_NOTE" />
+              <Mapping SourceColumn="FULL_ADDRESS_KH" DataSetColumn="FULL_ADDRESS_KH" />
+              <Mapping SourceColumn="FULL_ADDRESS_ENG" DataSetColumn="FULL_ADDRESS_ENG" />
+              <Mapping SourceColumn="DIAGNOSIS" DataSetColumn="DIAGNOSIS" />
+              <Mapping SourceColumn="DATE_CREATE" DataSetColumn="DATE_CREATE" />
+              <Mapping SourceColumn="IS_CLIENT_NEWOLD" DataSetColumn="IS_CLIENT_NEWOLD" />
+              <Mapping SourceColumn="IS_MONINTORING" DataSetColumn="IS_MONINTORING" />
+              <Mapping SourceColumn="MONITORING_ID" DataSetColumn="MONITORING_ID" />
+              <Mapping SourceColumn="CLIENT_NO" DataSetColumn="CLIENT_NO" />
+              <Mapping SourceColumn="FACILATER" DataSetColumn="FACILATER" />
+              <Mapping SourceColumn="NOTED_BY" DataSetColumn="NOTED_BY" />
+              <Mapping SourceColumn="DRUG" DataSetColumn="DRUG" />
+              <Mapping SourceColumn="COUNSELING" DataSetColumn="COUNSELING" />
+              <Mapping SourceColumn="ABT" DataSetColumn="ABT" />
+              <Mapping SourceColumn="SPECIAL_NEED" DataSetColumn="SPECIAL_NEED" />
+              <Mapping SourceColumn="THEARAPY_NAME" DataSetColumn="THEARAPY_NAME" />
+              <Mapping SourceColumn="SELF_SEEEN_BY" DataSetColumn="SELF_SEEEN_BY" />
+              <Mapping SourceColumn="OTHER_SEEN_BY" DataSetColumn="OTHER_SEEN_BY" />
+              <Mapping SourceColumn="REFER_BY_NGO" DataSetColumn="REFER_BY_NGO" />
+              <Mapping SourceColumn="REFER_BY_SCHOOL" DataSetColumn="REFER_BY_SCHOOL" />
+              <Mapping SourceColumn="REFER_BY_OTHER" DataSetColumn="REFER_BY_OTHER" />
+              <Mapping SourceColumn="REMARK" DataSetColumn="REMARK" />
+              <Mapping SourceColumn="CAL_AGE" DataSetColumn="CAL_AGE" />
+              <Mapping SourceColumn="NUMBER_VISIT" DataSetColumn="NUMBER_VISIT" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="TakeoDBConnectionString (MySettings)" DbObjectName="CCAMHUAT1.dbo.CCAMH_VIEW_CASE_MONITORING" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="SelectCaseMonitoringDateToDate" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="SelectCaseMonitoringDateToDate" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="SelectCaseMonitoringDateToDate" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        CLIENT_MG_ID, CLIENT_NAME_KHM, CLIENT_NAME, CLIENT_SEX, CLIENT_AGE, CLIENT_DOB, CLIENT_DATE_REG, CLIENT_ADVISED_ASSESSMENT_DATE, CLIENT_ADVISED_ASSESSMENT, CLIENT_ADDRESS_PHONE, 
+                         CLIENT_IS_ASSESS_CHECKED, CLIENT_ADVICED_ASSESSMENT_DETAIL, CLIENT_ADVICED_ASSESSMENT_NOTE, FULL_ADDRESS_KH, FULL_ADDRESS_ENG, DIAGNOSIS, DATE_CREATE, IS_CLIENT_NEWOLD, 
+                         IS_MONINTORING, MONITORING_ID, CLIENT_NO, FACILATER, NOTED_BY, DRUG, COUNSELING, ABT, SPECIAL_NEED, THEARAPY_NAME, SELF_SEEEN_BY, OTHER_SEEN_BY, REFER_BY_NGO, REFER_BY_SCHOOL, 
+                         REFER_BY_OTHER, REMARK, CAL_AGE, NUMBER_VISIT
+FROM            CCAMH_VIEW_CASE_MONITORING
+WHERE
+DATE_CREATE BETWEEN @DFrom and @DTo
+order by DATE_CREATE</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="DFrom" ColumnName="DATE_CREATE" DataSourceName="CCAMHUAT1.dbo.CCAMH_VIEW_CASE_MONITORING" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@DFrom" Precision="0" ProviderType="DateTime" Scale="0" Size="8" SourceColumn="DATE_CREATE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="DTo" ColumnName="DATE_CREATE" DataSourceName="CCAMHUAT1.dbo.CCAMH_VIEW_CASE_MONITORING" DataTypeServer="datetime" DbType="DateTime" Direction="Input" ParameterName="@DTo" Precision="0" ProviderType="DateTime" Scale="0" Size="8" SourceColumn="DATE_CREATE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="TakeoDBConnectionString (MySettings)" DbObjectName="CCAMH.dbo.CCAMH_VIEW_CASE_MONITORING" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBy1" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="SelectCaseMonitoringByClientNo" GeneratorSourceName="FillBy1" GetMethodModifier="Public" GetMethodName="SelectCaseMonitoringByClientNo" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="SelectCaseMonitoringByClientNo" UserSourceName="FillBy1">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        CLIENT_MG_ID, CLIENT_NAME_KHM, CLIENT_NAME, CLIENT_SEX, CLIENT_AGE, CLIENT_DOB, CLIENT_DATE_REG, CLIENT_ADVISED_ASSESSMENT_DATE, CLIENT_ADVISED_ASSESSMENT, CLIENT_ADDRESS_PHONE, 
+                         CLIENT_IS_ASSESS_CHECKED, CLIENT_ADVICED_ASSESSMENT_DETAIL, CLIENT_ADVICED_ASSESSMENT_NOTE, FULL_ADDRESS_KH, FULL_ADDRESS_ENG, DIAGNOSIS, DATE_CREATE, IS_CLIENT_NEWOLD, 
+                         IS_MONINTORING, MONITORING_ID, CLIENT_NO, FACILATER, NOTED_BY, DRUG, COUNSELING, ABT, SPECIAL_NEED, THEARAPY_NAME, SELF_SEEEN_BY, OTHER_SEEN_BY, REFER_BY_NGO, REFER_BY_SCHOOL, 
+                         REFER_BY_OTHER, REMARK, CAL_AGE, NUMBER_VISIT
+FROM            CCAMH_VIEW_CASE_MONITORING
+WHERE
+CLIENT_NO=@CLIENT_NO
+</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="CLIENT_NO" ColumnName="CLIENT_NO" DataSourceName="CCAMH.dbo.CCAMH_VIEW_CASE_MONITORING" DataTypeServer="numeric(18, 0)" DbType="Decimal" Direction="Input" ParameterName="@CLIENT_NO" Precision="18" ProviderType="Decimal" Scale="0" Size="9" SourceColumn="CLIENT_NO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="TakeoDBConnectionString (MySettings)" DbObjectName="CCAMH.dbo.CCAMH_VIEW_CASE_MONITORING" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBy2" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="SelectClientNameEng" GeneratorSourceName="FillBy2" GetMethodModifier="Public" GetMethodName="SelectClientNameEng" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="SelectClientNameEng" UserSourceName="FillBy2">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        CLIENT_MG_ID, CLIENT_NAME_KHM, CLIENT_NAME, CLIENT_SEX, CLIENT_AGE, CLIENT_DOB, CLIENT_DATE_REG, CLIENT_ADVISED_ASSESSMENT_DATE, CLIENT_ADVISED_ASSESSMENT, CLIENT_ADDRESS_PHONE, 
+                         CLIENT_IS_ASSESS_CHECKED, CLIENT_ADVICED_ASSESSMENT_DETAIL, CLIENT_ADVICED_ASSESSMENT_NOTE, FULL_ADDRESS_KH, FULL_ADDRESS_ENG, DIAGNOSIS, DATE_CREATE, IS_CLIENT_NEWOLD, 
+                         IS_MONINTORING, MONITORING_ID, CLIENT_NO, FACILATER, NOTED_BY, DRUG, COUNSELING, ABT, SPECIAL_NEED, THEARAPY_NAME, SELF_SEEEN_BY, OTHER_SEEN_BY, REFER_BY_NGO, REFER_BY_SCHOOL, 
+                         REFER_BY_OTHER, REMARK, CAL_AGE, NUMBER_VISIT
+FROM            CCAMH_VIEW_CASE_MONITORING
+WHERE
+CLIENT_NAME LIKE +'%'+ @CLIENT_NAME +'%'</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="CLIENT_NAME" ColumnName="CLIENT_NAME" DataSourceName="CCAMH.dbo.CCAMH_VIEW_CASE_MONITORING" DataTypeServer="nvarchar(100)" DbType="String" Direction="Input" ParameterName="@CLIENT_NAME" Precision="0" ProviderType="NVarChar" Scale="0" Size="100" SourceColumn="CLIENT_NAME" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="TakeoDBConnectionString (MySettings)" DbObjectName="CCAMH_UAT.dbo.CCAMH_VIEW_CASE_MONITORING" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBy3" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="SelectCaseMonitorFacilater" GeneratorSourceName="FillBy3" GetMethodModifier="Public" GetMethodName="SelectCaseMonitorFacilater" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="SelectCaseMonitorFacilater" UserSourceName="FillBy3">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        CLIENT_MG_ID, CLIENT_NAME_KHM, CLIENT_NAME, CLIENT_SEX, CLIENT_AGE, CLIENT_DOB, CLIENT_DATE_REG, CLIENT_ADVISED_ASSESSMENT_DATE, CLIENT_ADVISED_ASSESSMENT, CLIENT_ADDRESS_PHONE, 
+                         CLIENT_IS_ASSESS_CHECKED, CLIENT_ADVICED_ASSESSMENT_DETAIL, CLIENT_ADVICED_ASSESSMENT_NOTE, FULL_ADDRESS_KH, FULL_ADDRESS_ENG, DIAGNOSIS, DATE_CREATE, IS_CLIENT_NEWOLD, 
+                         IS_MONINTORING, MONITORING_ID, CLIENT_NO, FACILATER, NOTED_BY, DRUG, COUNSELING, ABT, SPECIAL_NEED, THEARAPY_NAME, SELF_SEEEN_BY, OTHER_SEEN_BY, REFER_BY_NGO, REFER_BY_SCHOOL, 
+                         REFER_BY_OTHER, REMARK, CAL_AGE, NUMBER_VISIT
+FROM            CCAMH_VIEW_CASE_MONITORING
+WHERE
+FACILATER  = @FACILATER</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="FACILATER" ColumnName="FACILATER" DataSourceName="CCAMH_UAT.dbo.CCAMH_VIEW_CASE_MONITORING" DataTypeServer="nvarchar(150)" DbType="String" Direction="Input" ParameterName="@FACILATER" Precision="0" ProviderType="NVarChar" Scale="0" Size="150" SourceColumn="FACILATER" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="TakeoDBConnectionString (MySettings)" DbObjectName="CCAMH_UAT.dbo.CCAMH_VIEW_CASE_MONITORING" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBy4" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="SelectCaseMonitoringByPhone" GeneratorSourceName="FillBy4" GetMethodModifier="Public" GetMethodName="SelectCaseMonitoringByPhone" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="SelectCaseMonitoringByPhone" UserSourceName="FillBy4">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        CLIENT_MG_ID, CLIENT_NAME_KHM, CLIENT_NAME, CLIENT_SEX, CLIENT_AGE, CLIENT_DOB, CLIENT_DATE_REG, CLIENT_ADVISED_ASSESSMENT_DATE, CLIENT_ADVISED_ASSESSMENT, CLIENT_ADDRESS_PHONE, 
+                         CLIENT_IS_ASSESS_CHECKED, CLIENT_ADVICED_ASSESSMENT_DETAIL, CLIENT_ADVICED_ASSESSMENT_NOTE, FULL_ADDRESS_KH, FULL_ADDRESS_ENG, DIAGNOSIS, DATE_CREATE, IS_CLIENT_NEWOLD, 
+                         IS_MONINTORING, MONITORING_ID, CLIENT_NO, FACILATER, NOTED_BY, DRUG, COUNSELING, ABT, SPECIAL_NEED, THEARAPY_NAME, SELF_SEEEN_BY, OTHER_SEEN_BY, REFER_BY_NGO, REFER_BY_SCHOOL, 
+                         REFER_BY_OTHER, REMARK, CAL_AGE, NUMBER_VISIT
+FROM            CCAMH_VIEW_CASE_MONITORING
+WHERE
+CLIENT_ADDRESS_PHONE LIKE +'%'+ @CLIENT_ADDRESS_PHONE +'%'</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="CLIENT_ADDRESS_PHONE" ColumnName="CLIENT_ADDRESS_PHONE" DataSourceName="CCAMH_UAT.dbo.CCAMH_VIEW_CASE_MONITORING" DataTypeServer="varchar(20)" DbType="AnsiString" Direction="Input" ParameterName="@CLIENT_ADDRESS_PHONE" Precision="0" ProviderType="VarChar" Scale="0" Size="20" SourceColumn="CLIENT_ADDRESS_PHONE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CCAMH_REFERED_DETIALTableAdapter" GeneratorDataComponentClassName="CCAMH_REFERED_DETIALTableAdapter" Name="CCAMH_REFERED_DETIAL" UserDataComponentName="CCAMH_REFERED_DETIALTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="TakeoDBConnectionString (MySettings)" DbObjectName="CCAMH_UAT.dbo.CCAMH_REFERED_DETIAL" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [CCAMH_REFERED_DETIAL] WHERE (([REFER_ID] = @Original_REFER_ID) AND ((@IsNull_CLIENT_REG_ID = 1 AND [CLIENT_REG_ID] IS NULL) OR ([CLIENT_REG_ID] = @Original_CLIENT_REG_ID)) AND ((@IsNull_CLIENT_NO = 1 AND [CLIENT_NO] IS NULL) OR ([CLIENT_NO] = @Original_CLIENT_NO)) AND ((@IsNull_REFERED_FROM = 1 AND [REFERED_FROM] IS NULL) OR ([REFERED_FROM] = @Original_REFERED_FROM)) AND ((@IsNull_REFERED_TYPE = 1 AND [REFERED_TYPE] IS NULL) OR ([REFERED_TYPE] = @Original_REFERED_TYPE)) AND ((@IsNull_REFFERED_NOTE = 1 AND [REFFERED_NOTE] IS NULL) OR ([REFFERED_NOTE] = @Original_REFFERED_NOTE)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_REFER_ID" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="REFER_ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CLIENT_REG_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CLIENT_REG_ID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_CLIENT_REG_ID" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="CLIENT_REG_ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CLIENT_NO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CLIENT_NO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_CLIENT_NO" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="CLIENT_NO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_REFERED_FROM" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="REFERED_FROM" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_REFERED_FROM" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="REFERED_FROM" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_REFERED_TYPE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="REFERED_TYPE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_REFERED_TYPE" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="REFERED_TYPE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_REFFERED_NOTE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="REFFERED_NOTE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_REFFERED_NOTE" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="REFFERED_NOTE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [CCAMH_REFERED_DETIAL] ([CLIENT_REG_ID], [CLIENT_NO], [REFERED_FROM], [REFERED_TYPE], [REFFERED_NOTE]) VALUES (@CLIENT_REG_ID, @CLIENT_NO, @REFERED_FROM, @REFERED_TYPE, @REFFERED_NOTE);
+SELECT REFER_ID, CLIENT_REG_ID, CLIENT_NO, REFERED_FROM, REFERED_TYPE, REFFERED_NOTE FROM CCAMH_REFERED_DETIAL WHERE (REFER_ID = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@CLIENT_REG_ID" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="CLIENT_REG_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@CLIENT_NO" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="CLIENT_NO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@REFERED_FROM" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="REFERED_FROM" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@REFERED_TYPE" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="REFERED_TYPE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@REFFERED_NOTE" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="REFFERED_NOTE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        REFER_ID, CLIENT_REG_ID, CLIENT_NO, REFERED_FROM, REFERED_TYPE, REFFERED_NOTE
+FROM            CCAMH_REFERED_DETIAL</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [CCAMH_REFERED_DETIAL] SET [CLIENT_REG_ID] = @CLIENT_REG_ID, [CLIENT_NO] = @CLIENT_NO, [REFERED_FROM] = @REFERED_FROM, [REFERED_TYPE] = @REFERED_TYPE, [REFFERED_NOTE] = @REFFERED_NOTE WHERE (([REFER_ID] = @Original_REFER_ID) AND ((@IsNull_CLIENT_REG_ID = 1 AND [CLIENT_REG_ID] IS NULL) OR ([CLIENT_REG_ID] = @Original_CLIENT_REG_ID)) AND ((@IsNull_CLIENT_NO = 1 AND [CLIENT_NO] IS NULL) OR ([CLIENT_NO] = @Original_CLIENT_NO)) AND ((@IsNull_REFERED_FROM = 1 AND [REFERED_FROM] IS NULL) OR ([REFERED_FROM] = @Original_REFERED_FROM)) AND ((@IsNull_REFERED_TYPE = 1 AND [REFERED_TYPE] IS NULL) OR ([REFERED_TYPE] = @Original_REFERED_TYPE)) AND ((@IsNull_REFFERED_NOTE = 1 AND [REFFERED_NOTE] IS NULL) OR ([REFFERED_NOTE] = @Original_REFFERED_NOTE)));
+SELECT REFER_ID, CLIENT_REG_ID, CLIENT_NO, REFERED_FROM, REFERED_TYPE, REFFERED_NOTE FROM CCAMH_REFERED_DETIAL WHERE (REFER_ID = @REFER_ID)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@CLIENT_REG_ID" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="CLIENT_REG_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@CLIENT_NO" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="CLIENT_NO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@REFERED_FROM" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="REFERED_FROM" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@REFERED_TYPE" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="REFERED_TYPE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@REFFERED_NOTE" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="REFFERED_NOTE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_REFER_ID" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="REFER_ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CLIENT_REG_ID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CLIENT_REG_ID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_CLIENT_REG_ID" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="CLIENT_REG_ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_CLIENT_NO" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="CLIENT_NO" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="@Original_CLIENT_NO" Precision="18" ProviderType="Decimal" Scale="0" Size="0" SourceColumn="CLIENT_NO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_REFERED_FROM" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="REFERED_FROM" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_REFERED_FROM" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="REFERED_FROM" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_REFERED_TYPE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="REFERED_TYPE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_REFERED_TYPE" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="REFERED_TYPE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_REFFERED_NOTE" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="REFFERED_NOTE" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_REFFERED_NOTE" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="REFFERED_NOTE" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="REFER_ID" ColumnName="REFER_ID" DataSourceName="CCAMH_UAT.dbo.CCAMH_REFERED_DETIAL" DataTypeServer="numeric" DbType="Decimal" Direction="Input" ParameterName="@REFER_ID" Precision="18" ProviderType="Decimal" Scale="0" Size="9" SourceColumn="REFER_ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="REFER_ID" DataSetColumn="REFER_ID" />
+              <Mapping SourceColumn="CLIENT_REG_ID" DataSetColumn="CLIENT_REG_ID" />
+              <Mapping SourceColumn="CLIENT_NO" DataSetColumn="CLIENT_NO" />
+              <Mapping SourceColumn="REFERED_FROM" DataSetColumn="REFERED_FROM" />
+              <Mapping SourceColumn="REFERED_TYPE" DataSetColumn="REFERED_TYPE" />
+              <Mapping SourceColumn="REFFERED_NOTE" DataSetColumn="REFFERED_NOTE" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="TakeoDBConnectionString (MySettings)" DbObjectName="CCAMH_UAT.dbo.CCAMH_REFERED_DETIAL" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="SelectReferDetailByClientNo" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="SelectReferDetailByClientNo" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="SelectReferDetailByClientNo" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        REFER_ID, CLIENT_REG_ID, CLIENT_NO, REFERED_FROM, REFERED_TYPE, REFFERED_NOTE
+FROM            CCAMH_REFERED_DETIAL
+WHERE
+CLIENT_NO=@CLIENT_NO</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="CLIENT_NO" ColumnName="CLIENT_NO" DataSourceName="CCAMH_UAT.dbo.CCAMH_REFERED_DETIAL" DataTypeServer="numeric(18, 0)" DbType="Decimal" Direction="Input" ParameterName="@CLIENT_NO" Precision="18" ProviderType="Decimal" Scale="0" Size="9" SourceColumn="CLIENT_NO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSCaseMonitoring" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSCaseMonitoring" msprop:Generator_UserDSName="DSCaseMonitoring">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CCAMH_VIEW_PRESCRIPTION" msprop:Generator_UserTableName="CCAMH_VIEW_PRESCRIPTION" msprop:Generator_RowEvArgName="CCAMH_VIEW_PRESCRIPTIONRowChangeEvent" msprop:Generator_TableVarName="tableCCAMH_VIEW_PRESCRIPTION" msprop:Generator_TablePropName="CCAMH_VIEW_PRESCRIPTION" msprop:Generator_RowDeletingName="CCAMH_VIEW_PRESCRIPTIONRowDeleting" msprop:Generator_RowChangingName="CCAMH_VIEW_PRESCRIPTIONRowChanging" msprop:Generator_RowDeletedName="CCAMH_VIEW_PRESCRIPTIONRowDeleted" msprop:Generator_RowEvHandlerName="CCAMH_VIEW_PRESCRIPTIONRowChangeEventHandler" msprop:Generator_TableClassName="CCAMH_VIEW_PRESCRIPTIONDataTable" msprop:Generator_RowChangedName="CCAMH_VIEW_PRESCRIPTIONRowChanged" msprop:Generator_RowClassName="CCAMH_VIEW_PRESCRIPTIONRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRESC_ID" msprop:Generator_ColumnVarNameInTable="columnPRESC_ID" msprop:Generator_ColumnPropNameInRow="PRESC_ID" msprop:Generator_ColumnPropNameInTable="PRESC_IDColumn" msprop:Generator_UserColumnName="PRESC_ID" type="xs:decimal" />
+              <xs:element name="CLIENT_NO" msprop:Generator_ColumnVarNameInTable="columnCLIENT_NO" msprop:Generator_ColumnPropNameInRow="CLIENT_NO" msprop:Generator_ColumnPropNameInTable="CLIENT_NOColumn" msprop:Generator_UserColumnName="CLIENT_NO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CLIENT_NAME" msprop:Generator_ColumnVarNameInTable="columnCLIENT_NAME" msprop:Generator_ColumnPropNameInRow="CLIENT_NAME" msprop:Generator_ColumnPropNameInTable="CLIENT_NAMEColumn" msprop:Generator_UserColumnName="CLIENT_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CLIENT_AGE" msprop:Generator_ColumnVarNameInTable="columnCLIENT_AGE" msprop:Generator_ColumnPropNameInRow="CLIENT_AGE" msprop:Generator_ColumnPropNameInTable="CLIENT_AGEColumn" msprop:Generator_UserColumnName="CLIENT_AGE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CLIENT_SEX" msprop:Generator_ColumnVarNameInTable="columnCLIENT_SEX" msprop:Generator_ColumnPropNameInRow="CLIENT_SEX" msprop:Generator_ColumnPropNameInTable="CLIENT_SEXColumn" msprop:Generator_UserColumnName="CLIENT_SEX" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CLIENT_TYPE" msprop:Generator_ColumnVarNameInTable="columnCLIENT_TYPE" msprop:Generator_ColumnPropNameInRow="CLIENT_TYPE" msprop:Generator_ColumnPropNameInTable="CLIENT_TYPEColumn" msprop:Generator_UserColumnName="CLIENT_TYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DOCTOR_NAME" msprop:Generator_ColumnVarNameInTable="columnDOCTOR_NAME" msprop:Generator_ColumnPropNameInRow="DOCTOR_NAME" msprop:Generator_ColumnPropNameInTable="DOCTOR_NAMEColumn" msprop:Generator_UserColumnName="DOCTOR_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DATE_PRESCR" msprop:Generator_ColumnVarNameInTable="columnDATE_PRESCR" msprop:Generator_ColumnPropNameInRow="DATE_PRESCR" msprop:Generator_ColumnPropNameInTable="DATE_PRESCRColumn" msprop:Generator_UserColumnName="DATE_PRESCR" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DATE_NEXT_VISIT" msprop:Generator_ColumnVarNameInTable="columnDATE_NEXT_VISIT" msprop:Generator_ColumnPropNameInRow="DATE_NEXT_VISIT" msprop:Generator_ColumnPropNameInTable="DATE_NEXT_VISITColumn" msprop:Generator_UserColumnName="DATE_NEXT_VISIT" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IS_DELETE" msprop:Generator_ColumnVarNameInTable="columnIS_DELETE" msprop:Generator_ColumnPropNameInRow="IS_DELETE" msprop:Generator_ColumnPropNameInTable="IS_DELETEColumn" msprop:Generator_UserColumnName="IS_DELETE" type="xs:boolean" minOccurs="0" />
+              <xs:element name="MED_ID" msprop:Generator_ColumnVarNameInTable="columnMED_ID" msprop:Generator_ColumnPropNameInRow="MED_ID" msprop:Generator_ColumnPropNameInTable="MED_IDColumn" msprop:Generator_UserColumnName="MED_ID" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MED_NAME" msprop:Generator_ColumnVarNameInTable="columnMED_NAME" msprop:Generator_ColumnPropNameInRow="MED_NAME" msprop:Generator_ColumnPropNameInTable="MED_NAMEColumn" msprop:Generator_UserColumnName="MED_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MED_M" msprop:Generator_ColumnVarNameInTable="columnMED_M" msprop:Generator_ColumnPropNameInRow="MED_M" msprop:Generator_ColumnPropNameInTable="MED_MColumn" msprop:Generator_UserColumnName="MED_M" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MED_N" msprop:Generator_ColumnVarNameInTable="columnMED_N" msprop:Generator_ColumnPropNameInRow="MED_N" msprop:Generator_ColumnPropNameInTable="MED_NColumn" msprop:Generator_UserColumnName="MED_N" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MED_E" msprop:Generator_ColumnVarNameInTable="columnMED_E" msprop:Generator_ColumnPropNameInRow="MED_E" msprop:Generator_ColumnPropNameInTable="MED_EColumn" msprop:Generator_UserColumnName="MED_E" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MED_QTY" msprop:Generator_ColumnVarNameInTable="columnMED_QTY" msprop:Generator_ColumnPropNameInRow="MED_QTY" msprop:Generator_ColumnPropNameInTable="MED_QTYColumn" msprop:Generator_UserColumnName="MED_QTY" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MED_PRICE" msprop:Generator_ColumnVarNameInTable="columnMED_PRICE" msprop:Generator_ColumnPropNameInRow="MED_PRICE" msprop:Generator_ColumnPropNameInTable="MED_PRICEColumn" msprop:Generator_UserColumnName="MED_PRICE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MED_SUB_TOTAL" msprop:Generator_ColumnVarNameInTable="columnMED_SUB_TOTAL" msprop:Generator_ColumnPropNameInRow="MED_SUB_TOTAL" msprop:Generator_ColumnPropNameInTable="MED_SUB_TOTALColumn" msprop:Generator_UserColumnName="MED_SUB_TOTAL" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PRESCRIPT_NOTE" msprop:Generator_ColumnVarNameInTable="columnPRESCRIPT_NOTE" msprop:Generator_ColumnPropNameInRow="PRESCRIPT_NOTE" msprop:Generator_ColumnPropNameInTable="PRESCRIPT_NOTEColumn" msprop:Generator_UserColumnName="PRESCRIPT_NOTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IS_RECEIVED" msprop:Generator_ColumnVarNameInTable="columnIS_RECEIVED" msprop:Generator_ColumnPropNameInRow="IS_RECEIVED" msprop:Generator_ColumnPropNameInTable="IS_RECEIVEDColumn" msprop:Generator_UserColumnName="IS_RECEIVED" type="xs:boolean" minOccurs="0" />
+              <xs:element name="REMARK" msprop:Generator_ColumnVarNameInTable="columnREMARK" msprop:Generator_ColumnPropNameInRow="REMARK" msprop:Generator_ColumnPropNameInTable="REMARKColumn" msprop:Generator_UserColumnName="REMARK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CCAMH_VIEW_CASE_MONITORING" msprop:Generator_UserTableName="CCAMH_VIEW_CASE_MONITORING" msprop:Generator_RowEvArgName="CCAMH_VIEW_CASE_MONITORINGRowChangeEvent" msprop:Generator_TableVarName="tableCCAMH_VIEW_CASE_MONITORING" msprop:Generator_TablePropName="CCAMH_VIEW_CASE_MONITORING" msprop:Generator_RowDeletingName="CCAMH_VIEW_CASE_MONITORINGRowDeleting" msprop:Generator_RowChangingName="CCAMH_VIEW_CASE_MONITORINGRowChanging" msprop:Generator_RowDeletedName="CCAMH_VIEW_CASE_MONITORINGRowDeleted" msprop:Generator_RowEvHandlerName="CCAMH_VIEW_CASE_MONITORINGRowChangeEventHandler" msprop:Generator_TableClassName="CCAMH_VIEW_CASE_MONITORINGDataTable" msprop:Generator_RowChangedName="CCAMH_VIEW_CASE_MONITORINGRowChanged" msprop:Generator_RowClassName="CCAMH_VIEW_CASE_MONITORINGRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CLIENT_MG_ID" msprop:Generator_ColumnVarNameInTable="columnCLIENT_MG_ID" msprop:Generator_ColumnPropNameInRow="CLIENT_MG_ID" msprop:Generator_ColumnPropNameInTable="CLIENT_MG_IDColumn" msprop:Generator_UserColumnName="CLIENT_MG_ID" type="xs:decimal" />
+              <xs:element name="CLIENT_NAME_KHM" msprop:Generator_ColumnVarNameInTable="columnCLIENT_NAME_KHM" msprop:Generator_ColumnPropNameInRow="CLIENT_NAME_KHM" msprop:Generator_ColumnPropNameInTable="CLIENT_NAME_KHMColumn" msprop:Generator_UserColumnName="CLIENT_NAME_KHM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CLIENT_NAME" msprop:Generator_ColumnVarNameInTable="columnCLIENT_NAME" msprop:Generator_ColumnPropNameInRow="CLIENT_NAME" msprop:Generator_ColumnPropNameInTable="CLIENT_NAMEColumn" msprop:Generator_UserColumnName="CLIENT_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CLIENT_SEX" msprop:Generator_ColumnVarNameInTable="columnCLIENT_SEX" msprop:Generator_ColumnPropNameInRow="CLIENT_SEX" msprop:Generator_ColumnPropNameInTable="CLIENT_SEXColumn" msprop:Generator_UserColumnName="CLIENT_SEX" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CLIENT_AGE" msprop:Generator_ColumnVarNameInTable="columnCLIENT_AGE" msprop:Generator_ColumnPropNameInRow="CLIENT_AGE" msprop:Generator_ColumnPropNameInTable="CLIENT_AGEColumn" msprop:Generator_UserColumnName="CLIENT_AGE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CLIENT_DOB" msprop:Generator_ColumnVarNameInTable="columnCLIENT_DOB" msprop:Generator_ColumnPropNameInRow="CLIENT_DOB" msprop:Generator_ColumnPropNameInTable="CLIENT_DOBColumn" msprop:Generator_UserColumnName="CLIENT_DOB" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CLIENT_DATE_REG" msprop:Generator_ColumnVarNameInTable="columnCLIENT_DATE_REG" msprop:Generator_ColumnPropNameInRow="CLIENT_DATE_REG" msprop:Generator_ColumnPropNameInTable="CLIENT_DATE_REGColumn" msprop:Generator_UserColumnName="CLIENT_DATE_REG" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CLIENT_ADVISED_ASSESSMENT_DATE" msprop:Generator_ColumnVarNameInTable="columnCLIENT_ADVISED_ASSESSMENT_DATE" msprop:Generator_ColumnPropNameInRow="CLIENT_ADVISED_ASSESSMENT_DATE" msprop:Generator_ColumnPropNameInTable="CLIENT_ADVISED_ASSESSMENT_DATEColumn" msprop:Generator_UserColumnName="CLIENT_ADVISED_ASSESSMENT_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CLIENT_ADVISED_ASSESSMENT" msprop:Generator_ColumnVarNameInTable="columnCLIENT_ADVISED_ASSESSMENT" msprop:Generator_ColumnPropNameInRow="CLIENT_ADVISED_ASSESSMENT" msprop:Generator_ColumnPropNameInTable="CLIENT_ADVISED_ASSESSMENTColumn" msprop:Generator_UserColumnName="CLIENT_ADVISED_ASSESSMENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CLIENT_ADDRESS_PHONE" msprop:Generator_ColumnVarNameInTable="columnCLIENT_ADDRESS_PHONE" msprop:Generator_ColumnPropNameInRow="CLIENT_ADDRESS_PHONE" msprop:Generator_ColumnPropNameInTable="CLIENT_ADDRESS_PHONEColumn" msprop:Generator_UserColumnName="CLIENT_ADDRESS_PHONE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CLIENT_IS_ASSESS_CHECKED" msprop:Generator_ColumnVarNameInTable="columnCLIENT_IS_ASSESS_CHECKED" msprop:Generator_ColumnPropNameInRow="CLIENT_IS_ASSESS_CHECKED" msprop:Generator_ColumnPropNameInTable="CLIENT_IS_ASSESS_CHECKEDColumn" msprop:Generator_UserColumnName="CLIENT_IS_ASSESS_CHECKED" type="xs:boolean" minOccurs="0" />
+              <xs:element name="CLIENT_ADVICED_ASSESSMENT_DETAIL" msprop:Generator_ColumnVarNameInTable="columnCLIENT_ADVICED_ASSESSMENT_DETAIL" msprop:Generator_ColumnPropNameInRow="CLIENT_ADVICED_ASSESSMENT_DETAIL" msprop:Generator_ColumnPropNameInTable="CLIENT_ADVICED_ASSESSMENT_DETAILColumn" msprop:Generator_UserColumnName="CLIENT_ADVICED_ASSESSMENT_DETAIL" type="xs:boolean" minOccurs="0" />
+              <xs:element name="CLIENT_ADVICED_ASSESSMENT_NOTE" msprop:Generator_ColumnVarNameInTable="columnCLIENT_ADVICED_ASSESSMENT_NOTE" msprop:Generator_ColumnPropNameInRow="CLIENT_ADVICED_ASSESSMENT_NOTE" msprop:Generator_ColumnPropNameInTable="CLIENT_ADVICED_ASSESSMENT_NOTEColumn" msprop:Generator_UserColumnName="CLIENT_ADVICED_ASSESSMENT_NOTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FULL_ADDRESS_KH" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFULL_ADDRESS_KH" msprop:Generator_ColumnPropNameInRow="FULL_ADDRESS_KH" msprop:Generator_ColumnPropNameInTable="FULL_ADDRESS_KHColumn" msprop:Generator_UserColumnName="FULL_ADDRESS_KH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="231" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FULL_ADDRESS_ENG" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnFULL_ADDRESS_ENG" msprop:Generator_ColumnPropNameInRow="FULL_ADDRESS_ENG" msprop:Generator_ColumnPropNameInTable="FULL_ADDRESS_ENGColumn" msprop:Generator_UserColumnName="FULL_ADDRESS_ENG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="245" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DIAGNOSIS" msprop:Generator_ColumnVarNameInTable="columnDIAGNOSIS" msprop:Generator_ColumnPropNameInRow="DIAGNOSIS" msprop:Generator_ColumnPropNameInTable="DIAGNOSISColumn" msprop:Generator_UserColumnName="DIAGNOSIS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DATE_CREATE" msprop:Generator_ColumnVarNameInTable="columnDATE_CREATE" msprop:Generator_ColumnPropNameInRow="DATE_CREATE" msprop:Generator_ColumnPropNameInTable="DATE_CREATEColumn" msprop:Generator_UserColumnName="DATE_CREATE" type="xs:dateTime" />
+              <xs:element name="IS_CLIENT_NEWOLD" msprop:Generator_ColumnVarNameInTable="columnIS_CLIENT_NEWOLD" msprop:Generator_ColumnPropNameInRow="IS_CLIENT_NEWOLD" msprop:Generator_ColumnPropNameInTable="IS_CLIENT_NEWOLDColumn" msprop:Generator_UserColumnName="IS_CLIENT_NEWOLD" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IS_MONINTORING" msprop:Generator_ColumnVarNameInTable="columnIS_MONINTORING" msprop:Generator_ColumnPropNameInRow="IS_MONINTORING" msprop:Generator_ColumnPropNameInTable="IS_MONINTORINGColumn" msprop:Generator_UserColumnName="IS_MONINTORING" type="xs:boolean" minOccurs="0" />
+              <xs:element name="MONITORING_ID" msprop:Generator_ColumnVarNameInTable="columnMONITORING_ID" msprop:Generator_ColumnPropNameInRow="MONITORING_ID" msprop:Generator_ColumnPropNameInTable="MONITORING_IDColumn" msprop:Generator_UserColumnName="MONITORING_ID" type="xs:decimal" />
+              <xs:element name="CLIENT_NO" msprop:Generator_ColumnVarNameInTable="columnCLIENT_NO" msprop:Generator_ColumnPropNameInRow="CLIENT_NO" msprop:Generator_ColumnPropNameInTable="CLIENT_NOColumn" msprop:Generator_UserColumnName="CLIENT_NO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FACILATER" msprop:Generator_ColumnVarNameInTable="columnFACILATER" msprop:Generator_ColumnPropNameInRow="FACILATER" msprop:Generator_ColumnPropNameInTable="FACILATERColumn" msprop:Generator_UserColumnName="FACILATER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NOTED_BY" msprop:Generator_ColumnVarNameInTable="columnNOTED_BY" msprop:Generator_ColumnPropNameInRow="NOTED_BY" msprop:Generator_ColumnPropNameInTable="NOTED_BYColumn" msprop:Generator_UserColumnName="NOTED_BY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DRUG" msprop:Generator_ColumnVarNameInTable="columnDRUG" msprop:Generator_ColumnPropNameInRow="DRUG" msprop:Generator_ColumnPropNameInTable="DRUGColumn" msprop:Generator_UserColumnName="DRUG" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COUNSELING" msprop:Generator_ColumnVarNameInTable="columnCOUNSELING" msprop:Generator_ColumnPropNameInRow="COUNSELING" msprop:Generator_ColumnPropNameInTable="COUNSELINGColumn" msprop:Generator_UserColumnName="COUNSELING" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ABT" msprop:Generator_ColumnVarNameInTable="columnABT" msprop:Generator_ColumnPropNameInRow="ABT" msprop:Generator_ColumnPropNameInTable="ABTColumn" msprop:Generator_UserColumnName="ABT" type="xs:boolean" minOccurs="0" />
+              <xs:element name="SPECIAL_NEED" msprop:Generator_ColumnVarNameInTable="columnSPECIAL_NEED" msprop:Generator_ColumnPropNameInRow="SPECIAL_NEED" msprop:Generator_ColumnPropNameInTable="SPECIAL_NEEDColumn" msprop:Generator_UserColumnName="SPECIAL_NEED" type="xs:boolean" minOccurs="0" />
+              <xs:element name="THEARAPY_NAME" msprop:Generator_ColumnVarNameInTable="columnTHEARAPY_NAME" msprop:Generator_ColumnPropNameInRow="THEARAPY_NAME" msprop:Generator_ColumnPropNameInTable="THEARAPY_NAMEColumn" msprop:Generator_UserColumnName="THEARAPY_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SELF_SEEEN_BY" msprop:Generator_ColumnVarNameInTable="columnSELF_SEEEN_BY" msprop:Generator_ColumnPropNameInRow="SELF_SEEEN_BY" msprop:Generator_ColumnPropNameInTable="SELF_SEEEN_BYColumn" msprop:Generator_UserColumnName="SELF_SEEEN_BY" type="xs:boolean" minOccurs="0" />
+              <xs:element name="OTHER_SEEN_BY" msprop:Generator_ColumnVarNameInTable="columnOTHER_SEEN_BY" msprop:Generator_ColumnPropNameInRow="OTHER_SEEN_BY" msprop:Generator_ColumnPropNameInTable="OTHER_SEEN_BYColumn" msprop:Generator_UserColumnName="OTHER_SEEN_BY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REFER_BY_NGO" msprop:Generator_ColumnVarNameInTable="columnREFER_BY_NGO" msprop:Generator_ColumnPropNameInRow="REFER_BY_NGO" msprop:Generator_ColumnPropNameInTable="REFER_BY_NGOColumn" msprop:Generator_UserColumnName="REFER_BY_NGO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REFER_BY_SCHOOL" msprop:Generator_ColumnVarNameInTable="columnREFER_BY_SCHOOL" msprop:Generator_ColumnPropNameInRow="REFER_BY_SCHOOL" msprop:Generator_ColumnPropNameInTable="REFER_BY_SCHOOLColumn" msprop:Generator_UserColumnName="REFER_BY_SCHOOL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REFER_BY_OTHER" msprop:Generator_ColumnVarNameInTable="columnREFER_BY_OTHER" msprop:Generator_ColumnPropNameInRow="REFER_BY_OTHER" msprop:Generator_ColumnPropNameInTable="REFER_BY_OTHERColumn" msprop:Generator_UserColumnName="REFER_BY_OTHER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REMARK" msprop:Generator_ColumnVarNameInTable="columnREMARK" msprop:Generator_ColumnPropNameInRow="REMARK" msprop:Generator_ColumnPropNameInTable="REMARKColumn" msprop:Generator_UserColumnName="REMARK" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CAL_AGE" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCAL_AGE" msprop:Generator_ColumnPropNameInRow="CAL_AGE" msprop:Generator_ColumnPropNameInTable="CAL_AGEColumn" msprop:Generator_UserColumnName="CAL_AGE" type="xs:int" minOccurs="0" />
+              <xs:element name="NUMBER_VISIT" msprop:Generator_ColumnVarNameInTable="columnNUMBER_VISIT" msprop:Generator_ColumnPropNameInRow="NUMBER_VISIT" msprop:Generator_ColumnPropNameInTable="NUMBER_VISITColumn" msprop:Generator_UserColumnName="NUMBER_VISIT" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="CCAMH_REFERED_DETIAL" msprop:Generator_TableClassName="CCAMH_REFERED_DETIALDataTable" msprop:Generator_RowEvArgName="CCAMH_REFERED_DETIALRowChangeEvent" msprop:Generator_TableVarName="tableCCAMH_REFERED_DETIAL" msprop:Generator_TablePropName="CCAMH_REFERED_DETIAL" msprop:Generator_RowDeletingName="CCAMH_REFERED_DETIALRowDeleting" msprop:Generator_RowChangingName="CCAMH_REFERED_DETIALRowChanging" msprop:Generator_RowEvHandlerName="CCAMH_REFERED_DETIALRowChangeEventHandler" msprop:Generator_RowDeletedName="CCAMH_REFERED_DETIALRowDeleted" msprop:Generator_RowChangedName="CCAMH_REFERED_DETIALRowChanged" msprop:Generator_UserTableName="CCAMH_REFERED_DETIAL" msprop:Generator_RowClassName="CCAMH_REFERED_DETIALRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REFER_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnREFER_ID" msprop:Generator_ColumnPropNameInRow="REFER_ID" msprop:Generator_ColumnPropNameInTable="REFER_IDColumn" msprop:Generator_UserColumnName="REFER_ID" type="xs:decimal" />
+              <xs:element name="CLIENT_REG_ID" msprop:Generator_ColumnVarNameInTable="columnCLIENT_REG_ID" msprop:Generator_ColumnPropNameInRow="CLIENT_REG_ID" msprop:Generator_ColumnPropNameInTable="CLIENT_REG_IDColumn" msprop:Generator_UserColumnName="CLIENT_REG_ID" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CLIENT_NO" msprop:Generator_ColumnVarNameInTable="columnCLIENT_NO" msprop:Generator_ColumnPropNameInRow="CLIENT_NO" msprop:Generator_ColumnPropNameInTable="CLIENT_NOColumn" msprop:Generator_UserColumnName="CLIENT_NO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="REFERED_FROM" msprop:Generator_ColumnVarNameInTable="columnREFERED_FROM" msprop:Generator_ColumnPropNameInRow="REFERED_FROM" msprop:Generator_ColumnPropNameInTable="REFERED_FROMColumn" msprop:Generator_UserColumnName="REFERED_FROM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REFERED_TYPE" msprop:Generator_ColumnVarNameInTable="columnREFERED_TYPE" msprop:Generator_ColumnPropNameInRow="REFERED_TYPE" msprop:Generator_ColumnPropNameInTable="REFERED_TYPEColumn" msprop:Generator_UserColumnName="REFERED_TYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REFFERED_NOTE" msprop:Generator_ColumnVarNameInTable="columnREFFERED_NOTE" msprop:Generator_ColumnPropNameInRow="REFFERED_NOTE" msprop:Generator_ColumnPropNameInTable="REFFERED_NOTEColumn" msprop:Generator_UserColumnName="REFFERED_NOTE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:CCAMH_REFERED_DETIAL" />
+      <xs:field xpath="mstns:REFER_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

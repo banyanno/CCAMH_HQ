@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ToolCaseAudit.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BtnNewCaseAudit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="BtnUpdateCashAudit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="BtnDeleteCaseAudit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGLSURBVGhD7dm9SsNQGMbxB0dB7KAObnobjt6AoKPehB9j
+        BfGO3FTqt4PiIHRRcHcXXESIT+B9IJRSkvZ8yvlDSHIOTc6vLYVQlEql0v+oAuZugONHYMWGonUFbHPb
+        tNNuXQN9Qipuw5gYrmPnDPjh/vsWWLPh9l0Ci3zxU43h/v0BWLWpYPG+e7z/r72h+zbcvZgYZwgVA+Mc
+        oUJiRhAHNuyuEBjvCOUTEwyhfGCCI5RLTDSEcoGJjlCzYJJBqGkwySEUF9Zri+H8bpII1QaTPEJNwmSD
+        UOMw2SFUE3MOfGaJUDWGC/8wQMWHohObyquRr1Prn+akaiJ43Ofz9nN2mBHEoY31ssKMQ6gmhttbsphJ
+        CJU8pg1CJYvpglDJYaZBqGQwsyBUdIwLhIqGcYlQwTE+ECoYxidCeceEQChvmJAI5RwTA6GcYXihrfqf
+        IrvQqQ0H7Q5Y5r2HtoZXrmnJptrHd2PjAvjii49sKEr6ZLgfvADzNtyte2DdDqNWfzL8ai3YaalUKmUf
+        8AdAorKtOBs4WAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="BtnPrintCaseDropOut.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG4SURBVEhL7VYxL0NRGD0xYLAwGQhhFwObgUXMLGw1kPgX
+        FnvThMQg9QPMVi0tEgMD0n8hsRrqnDhpXvte677XF1JxkpPe737fOd99t/e9XPyjE9fARg0opKE0lmcH
+        jSqdxgGsWJ4dWUwGszHFW+QV+eGpYEgj7Q2w6akw3ANTFF3UgW3y3dPBkEZaecjL073B4hOyTKFW/MqV
+        vzkVDGmklQfHZ+SxU92hLfIQl8AI4yeHwWDDx2dg2GGbZ1dEizjeI5tcfS0NpZHWNukb64n5Mdih2X4a
+        StPXE+eFbz1ZsFYFHvgfLXO8RB7kMZYnd2LVbeJgkU7gvMPcIE95O4yDqyrfAbMO+0ITGKLfkd5jecrb
+        qTjybMw/dZR+VR60hR9tHMVgNeaJnOb8XBp2fp9TN+brsMvTqK/QaUpKU7BN+sa3wAQNXhwGQxp6jTsM
+        alyiaJ2/0a3jg3+BuUXGh0lUzmXyqZMtD3uWnI5DK2NRkWxtG68SDaf1ikzSYDWJyrlM149G1IMscvUz
+        ToeBotY1hg1WGJ8nUTmXtWkyI2rCpxrTriRROZfl15hMusL2Yv+Nf+1C/8cAfAL4nVXOdZoPQwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="GridClientCaseDropOut_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="OUTCOME_ID"&gt;&lt;Caption&gt;OUTCOME_ID&lt;/Caption&gt;&lt;DataMember&gt;OUTCOME_ID&lt;/DataMember&gt;&lt;Key&gt;OUTCOME_ID&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="DATE_CREATE_OUTCOME"&gt;&lt;Caption&gt;Date Note&lt;/Caption&gt;&lt;DataMember&gt;DATE_CREATE_OUTCOME&lt;/DataMember&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;Key&gt;DATE_CREATE_OUTCOME&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;113&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="CLIENT_NO"&gt;&lt;Caption&gt;Client No&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_NO&lt;/DataMember&gt;&lt;Key&gt;CLIENT_NO&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;121&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="CLIENT_NAME_KH"&gt;&lt;Caption&gt;Name KH&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_NAME_KH&lt;/DataMember&gt;&lt;Key&gt;CLIENT_NAME_KH&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;/Column3&gt;&lt;Column4 ID="CLIENT_NAME_ENG"&gt;&lt;Caption&gt;Name Eng&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_NAME_ENG&lt;/DataMember&gt;&lt;Key&gt;CLIENT_NAME_ENG&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;/Column4&gt;&lt;Column5 ID="CLIENT_AGE"&gt;&lt;Caption&gt;Age&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_AGE&lt;/DataMember&gt;&lt;Key&gt;CLIENT_AGE&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Width&gt;42&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="CLIENT_SEX"&gt;&lt;Caption&gt;Sex&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_SEX&lt;/DataMember&gt;&lt;Key&gt;CLIENT_SEX&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Width&gt;47&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="REFER_BY"&gt;&lt;Caption&gt;Refer By&lt;/Caption&gt;&lt;DataMember&gt;REFER_BY&lt;/DataMember&gt;&lt;Key&gt;REFER_BY&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;/Column7&gt;&lt;Column8 ID="DATE_REGISTER"&gt;&lt;Caption&gt;Date Register&lt;/Caption&gt;&lt;DataMember&gt;DATE_REGISTER&lt;/DataMember&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;Key&gt;DATE_REGISTER&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;/Column8&gt;&lt;Column9 ID="NO_OF_SIBLING"&gt;&lt;Caption&gt;No of Sibling&lt;/Caption&gt;&lt;DataMember&gt;NO_OF_SIBLING&lt;/DataMember&gt;&lt;Key&gt;NO_OF_SIBLING&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;/Column9&gt;&lt;Column10 ID="ORDER_OF_THEIR_SIBLING"&gt;&lt;Caption&gt;Order Sibling&lt;/Caption&gt;&lt;DataMember&gt;ORDER_OF_THEIR_SIBLING&lt;/DataMember&gt;&lt;Key&gt;ORDER_OF_THEIR_SIBLING&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;/Column10&gt;&lt;Column11 ID="GLASS_GRADE"&gt;&lt;Caption&gt;Glass grade&lt;/Caption&gt;&lt;DataMember&gt;GLASS_GRADE&lt;/DataMember&gt;&lt;Key&gt;GLASS_GRADE&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;/Column11&gt;&lt;Column12 ID="FATHER_OCCUPATION"&gt;&lt;Caption&gt;Father Occupation&lt;/Caption&gt;&lt;DataMember&gt;FATHER_OCCUPATION&lt;/DataMember&gt;&lt;Key&gt;FATHER_OCCUPATION&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;/Column12&gt;&lt;Column13 ID="MATHER_OCCUPATION"&gt;&lt;Caption&gt;Mather Occupation&lt;/Caption&gt;&lt;DataMember&gt;MATHER_OCCUPATION&lt;/DataMember&gt;&lt;Key&gt;MATHER_OCCUPATION&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;/Column13&gt;&lt;Column14 ID="FATHER_EDUCATION"&gt;&lt;Caption&gt;Father Education&lt;/Caption&gt;&lt;DataMember&gt;FATHER_EDUCATION&lt;/DataMember&gt;&lt;Key&gt;FATHER_EDUCATION&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;/Column14&gt;&lt;Column15 ID="MATHER_EDUCATION"&gt;&lt;Caption&gt;Mather Education&lt;/Caption&gt;&lt;DataMember&gt;MATHER_EDUCATION&lt;/DataMember&gt;&lt;Key&gt;MATHER_EDUCATION&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;/Column15&gt;&lt;Column16 ID="ADDRESS"&gt;&lt;Caption&gt;Address&lt;/Caption&gt;&lt;DataMember&gt;ADDRESS&lt;/DataMember&gt;&lt;Key&gt;ADDRESS&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;/Column16&gt;&lt;Column17 ID="TELEPHONE"&gt;&lt;Caption&gt;Telephone&lt;/Caption&gt;&lt;DataMember&gt;TELEPHONE&lt;/DataMember&gt;&lt;Key&gt;TELEPHONE&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;/Column17&gt;&lt;Column18 ID="LIVE_WIHT_WHOM"&gt;&lt;Caption&gt;Live With Whow&lt;/Caption&gt;&lt;DataMember&gt;LIVE_WIHT_WHOM&lt;/DataMember&gt;&lt;Key&gt;LIVE_WIHT_WHOM&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;Width&gt;110&lt;/Width&gt;&lt;/Column18&gt;&lt;Column19 ID="DIAGNOSIS"&gt;&lt;Caption&gt;Diagnosis&lt;/Caption&gt;&lt;DataMember&gt;DIAGNOSIS&lt;/DataMember&gt;&lt;Key&gt;DIAGNOSIS&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;/Column19&gt;&lt;Column20 ID="DRUG"&gt;&lt;Caption&gt;Drug&lt;/Caption&gt;&lt;DataMember&gt;DRUG&lt;/DataMember&gt;&lt;Key&gt;DRUG&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;/Column20&gt;&lt;Column21 ID="NO_OF_VISIT"&gt;&lt;Caption&gt;No of visit&lt;/Caption&gt;&lt;DataMember&gt;NO_OF_VISIT&lt;/DataMember&gt;&lt;Key&gt;NO_OF_VISIT&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;/Column21&gt;&lt;Column22 ID="THERAPIST_NAME"&gt;&lt;Caption&gt;Therapist&lt;/Caption&gt;&lt;DataMember&gt;THERAPIST_NAME&lt;/DataMember&gt;&lt;Key&gt;THERAPIST_NAME&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;/Column22&gt;&lt;Column23 ID="LAST_VISIT"&gt;&lt;Caption&gt;Last Visit&lt;/Caption&gt;&lt;DataMember&gt;LAST_VISIT&lt;/DataMember&gt;&lt;Key&gt;LAST_VISIT&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;/Column23&gt;&lt;Column24 ID="DROP_OUT_POOR"&gt;&lt;Caption&gt;Poor&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;DROP_OUT_POOR&lt;/DataMember&gt;&lt;Key&gt;DROP_OUT_POOR&lt;/Key&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;/Column24&gt;&lt;Column25 ID="DROP_OUT_LONG_DISTANCE"&gt;&lt;Caption&gt;Long Distance&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;DROP_OUT_LONG_DISTANCE&lt;/DataMember&gt;&lt;Key&gt;DROP_OUT_LONG_DISTANCE&lt;/Key&gt;&lt;Position&gt;25&lt;/Position&gt;&lt;/Column25&gt;&lt;Column26 ID="DROP_OUT_NOT_KNOW"&gt;&lt;Caption&gt;Not Know&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;DROP_OUT_NOT_KNOW&lt;/DataMember&gt;&lt;Key&gt;DROP_OUT_NOT_KNOW&lt;/Key&gt;&lt;Position&gt;26&lt;/Position&gt;&lt;/Column26&gt;&lt;Column27 ID="CASE_DROP_OUT"&gt;&lt;Caption&gt;Drop out&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;CASE_DROP_OUT&lt;/DataMember&gt;&lt;Key&gt;CASE_DROP_OUT&lt;/Key&gt;&lt;Position&gt;27&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column27&gt;&lt;Column28 ID="STOP_VISIT_RESPITE"&gt;&lt;Caption&gt;Respite&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;STOP_VISIT_RESPITE&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;STOP_VISIT_RESPITE&lt;/Key&gt;&lt;Position&gt;28&lt;/Position&gt;&lt;/Column28&gt;&lt;Column29 ID="STOP_VISIT_TREATMENT_COMPLETE"&gt;&lt;Caption&gt; Treatment Complete&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;STOP_VISIT_TREATMENT_COMPLETE&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;STOP_VISIT_TREATMENT_COMPLETE&lt;/Key&gt;&lt;Position&gt;29&lt;/Position&gt;&lt;/Column29&gt;&lt;Column30 ID="STOP_VISIT_BACK_TO_SCHOOL"&gt;&lt;Caption&gt;Back To School&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;STOP_VISIT_BACK_TO_SCHOOL&lt;/DataMember&gt;&lt;Key&gt;STOP_VISIT_BACK_TO_SCHOOL&lt;/Key&gt;&lt;Position&gt;30&lt;/Position&gt;&lt;/Column30&gt;&lt;Column31 ID="STOP_VISIT_REFER_TO"&gt;&lt;Caption&gt;Refer To&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;STOP_VISIT_REFER_TO&lt;/DataMember&gt;&lt;Key&gt;STOP_VISIT_REFER_TO&lt;/Key&gt;&lt;Position&gt;31&lt;/Position&gt;&lt;/Column31&gt;&lt;Column32 ID="STOP_VISIT"&gt;&lt;Caption&gt;Stop Visit&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;STOP_VISIT&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;STOP_VISIT&lt;/Key&gt;&lt;Position&gt;32&lt;/Position&gt;&lt;/Column32&gt;&lt;Column33 ID="OUTCOME_REMARK"&gt;&lt;Caption&gt;Remark&lt;/Caption&gt;&lt;DataMember&gt;OUTCOME_REMARK&lt;/DataMember&gt;&lt;Key&gt;OUTCOME_REMARK&lt;/Key&gt;&lt;Position&gt;33&lt;/Position&gt;&lt;/Column33&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;RowHeaderContent&gt;RowPosition&lt;/RowHeaderContent&gt;&lt;RowHeaderWidth&gt;70&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;30&lt;/RowHeight&gt;&lt;HeaderFormatStyle&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/HeaderFormatStyle&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="GridClinicalAudit_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="CLIENT_ASSESS_ID"&gt;&lt;Caption&gt;CLIENT_ASSESS_ID&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_ASSESS_ID&lt;/DataMember&gt;&lt;Key&gt;CLIENT_ASSESS_ID&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="DATE_AUDIT_ON"&gt;&lt;Caption&gt;Date Audit On&lt;/Caption&gt;&lt;DataMember&gt;DATE_AUDIT_ON&lt;/DataMember&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;Key&gt;DATE_AUDIT_ON&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="CLIENT_NO"&gt;&lt;Caption&gt;CLIENT NO&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_NO&lt;/DataMember&gt;&lt;Key&gt;CLIENT_NO&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;110&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="CLIENT_NAME_KHM"&gt;&lt;Caption&gt;Client Name Kh&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_NAME_KHM&lt;/DataMember&gt;&lt;Key&gt;CLIENT_NAME_KHM&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;157&lt;/Width&gt;&lt;CellStyle&gt;&lt;Font&gt;Kh Battambang, 9.75pt&lt;/Font&gt;&lt;/CellStyle&gt;&lt;/Column3&gt;&lt;Column4 ID="CLIENT_NAME"&gt;&lt;Caption&gt;Client Name&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_NAME&lt;/DataMember&gt;&lt;Key&gt;CLIENT_NAME&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;/Column4&gt;&lt;Column5 ID="CLIENT_AGE"&gt;&lt;Caption&gt;Age&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_AGE&lt;/DataMember&gt;&lt;Key&gt;CLIENT_AGE&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Width&gt;52&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="CLIENT_SEX"&gt;&lt;Caption&gt;Sex&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_SEX&lt;/DataMember&gt;&lt;Key&gt;CLIENT_SEX&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Width&gt;58&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="CLIENT_DATE_REG"&gt;&lt;Caption&gt;Date Regis&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_DATE_REG&lt;/DataMember&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;Key&gt;CLIENT_DATE_REG&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Width&gt;84&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="NUMBER_VISIT"&gt;&lt;Caption&gt;No Visited&lt;/Caption&gt;&lt;DataMember&gt;NUMBER_VISIT&lt;/DataMember&gt;&lt;Key&gt;NUMBER_VISIT&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Width&gt;71&lt;/Width&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;/Column8&gt;&lt;Column9 ID="WEEK_NO"&gt;&lt;Caption&gt;Week Under Review&lt;/Caption&gt;&lt;DataMember&gt;WEEK_NO&lt;/DataMember&gt;&lt;Key&gt;WEEK_NO&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;/Column9&gt;&lt;Column10 ID="NEXT_VISIT"&gt;&lt;Caption&gt;Next Visit&lt;/Caption&gt;&lt;DataMember&gt;NEXT_VISIT&lt;/DataMember&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;Key&gt;NEXT_VISIT&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;/Column10&gt;&lt;Column11 ID="DISCUSS_WRITING"&gt;&lt;Caption&gt;Discuss Writing&lt;/Caption&gt;&lt;DataMember&gt;DISCUSS_WRITING&lt;/DataMember&gt;&lt;Key&gt;DISCUSS_WRITING&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;/Column11&gt;&lt;Column12 ID="DISCUSS_ONLY"&gt;&lt;Caption&gt;Discuss Only&lt;/Caption&gt;&lt;DataMember&gt;DISCUSS_ONLY&lt;/DataMember&gt;&lt;Key&gt;DISCUSS_ONLY&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;/Column12&gt;&lt;Column13 ID="CALL_CLIENT"&gt;&lt;Caption&gt;Call Only&lt;/Caption&gt;&lt;DataMember&gt;CALL_CLIENT&lt;/DataMember&gt;&lt;Key&gt;CALL_CLIENT&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;CellStyle&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/CellStyle&gt;&lt;/Column13&gt;&lt;Column14 ID="ASSEMENT_REMARK"&gt;&lt;Caption&gt;Remark&lt;/Caption&gt;&lt;DataMember&gt;ASSEMENT_REMARK&lt;/DataMember&gt;&lt;Key&gt;ASSEMENT_REMARK&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;/Column14&gt;&lt;Column15 ID="CLIENT_PRO_DIAGNOSIS"&gt;&lt;Caption&gt;CLIENT_PRO_DIAGNOSIS&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_PRO_DIAGNOSIS&lt;/DataMember&gt;&lt;Key&gt;CLIENT_PRO_DIAGNOSIS&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column15&gt;&lt;Column16 ID="CLIENT_MNG_PLAN"&gt;&lt;Caption&gt;CLIENT_MNG_PLAN&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_MNG_PLAN&lt;/DataMember&gt;&lt;Key&gt;CLIENT_MNG_PLAN&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column16&gt;&lt;Column17 ID="CLIENT_FINAL_DIAGNOSIS"&gt;&lt;Caption&gt;CLIENT_FINAL_DIAGNOSIS&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_FINAL_DIAGNOSIS&lt;/DataMember&gt;&lt;Key&gt;CLIENT_FINAL_DIAGNOSIS&lt;/Key&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column17&gt;&lt;Column18 ID="CLIENT_MEDICATION"&gt;&lt;Caption&gt;CLIENT_MEDICATION&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_MEDICATION&lt;/DataMember&gt;&lt;Key&gt;CLIENT_MEDICATION&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column18&gt;&lt;Column19 ID="CLIENT_OTHER_THERAPIES"&gt;&lt;Caption&gt;CLIENT_OTHER_THERAPIES&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_OTHER_THERAPIES&lt;/DataMember&gt;&lt;Key&gt;CLIENT_OTHER_THERAPIES&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column19&gt;&lt;Column20 ID="CLIENT_RESPONSE"&gt;&lt;Caption&gt;CLIENT_RESPONSE&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_RESPONSE&lt;/DataMember&gt;&lt;Key&gt;CLIENT_RESPONSE&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column20&gt;&lt;Column21 ID="CLIENT_RAPPORT_ENGAGEMENT"&gt;&lt;Caption&gt;CLIENT_RAPPORT_ENGAGEMENT&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_RAPPORT_ENGAGEMENT&lt;/DataMember&gt;&lt;Key&gt;CLIENT_RAPPORT_ENGAGEMENT&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column21&gt;&lt;Column22 ID="THERAPIST_NAME"&gt;&lt;Caption&gt; Therapist &lt;/Caption&gt;&lt;DataMember&gt;THERAPIST_NAME&lt;/DataMember&gt;&lt;Key&gt;THERAPIST_NAME&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;/Column22&gt;&lt;Column23 ID="CLIENT_LIASION"&gt;&lt;Caption&gt;CLIENT_LIASION&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_LIASION&lt;/DataMember&gt;&lt;Key&gt;CLIENT_LIASION&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column23&gt;&lt;Column24 ID="CLIENT_ACTION_PLAN"&gt;&lt;Caption&gt;CLIENT_ACTION_PLAN&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_ACTION_PLAN&lt;/DataMember&gt;&lt;Key&gt;CLIENT_ACTION_PLAN&lt;/Key&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column24&gt;&lt;Column25 ID="THERAPIST_ID"&gt;&lt;Caption&gt;THERAPIST_ID&lt;/Caption&gt;&lt;DataMember&gt;THERAPIST_ID&lt;/DataMember&gt;&lt;Key&gt;THERAPIST_ID&lt;/Key&gt;&lt;Position&gt;25&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column25&gt;&lt;Column26 ID="CLIENT_ASSESS_TOBEDONE"&gt;&lt;Caption&gt;CLIENT_ASSESS_TOBEDONE&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_ASSESS_TOBEDONE&lt;/DataMember&gt;&lt;Key&gt;CLIENT_ASSESS_TOBEDONE&lt;/Key&gt;&lt;Position&gt;26&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column26&gt;&lt;Column27 ID="CLIENT_ASSESS_COMPLED"&gt;&lt;Caption&gt;CLIENT_ASSESS_COMPLED&lt;/Caption&gt;&lt;DataMember&gt;CLIENT_ASSESS_COMPLED&lt;/DataMember&gt;&lt;Key&gt;CLIENT_ASSESS_COMPLED&lt;/Key&gt;&lt;Position&gt;27&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column27&gt;&lt;Column28 ID="WEEK_NO_LABEL"&gt;&lt;Caption&gt;Week Label&lt;/Caption&gt;&lt;DataMember&gt;WEEK_NO_LABEL&lt;/DataMember&gt;&lt;Key&gt;WEEK_NO_LABEL&lt;/Key&gt;&lt;Position&gt;28&lt;/Position&gt;&lt;/Column28&gt;&lt;Column29 ID="WEEK_START_DATE"&gt;&lt;Caption&gt;Start Date Week&lt;/Caption&gt;&lt;DataMember&gt;WEEK_START_DATE&lt;/DataMember&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;Key&gt;WEEK_START_DATE&lt;/Key&gt;&lt;Position&gt;29&lt;/Position&gt;&lt;/Column29&gt;&lt;Column30 ID="WEEK_END_DATE"&gt;&lt;Caption&gt;End Date Week&lt;/Caption&gt;&lt;DataMember&gt;WEEK_END_DATE&lt;/DataMember&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;Key&gt;WEEK_END_DATE&lt;/Key&gt;&lt;Position&gt;30&lt;/Position&gt;&lt;/Column30&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;Groups Collection="true" ElementName="Group"&gt;&lt;Group0 ID="Group0"&gt;&lt;ColIndex&gt;28&lt;/ColIndex&gt;&lt;GroupPrefix&gt;Week under review:&lt;/GroupPrefix&gt;&lt;HeaderCaption&gt;Week under review:&lt;/HeaderCaption&gt;&lt;/Group0&gt;&lt;/Groups&gt;&lt;RowHeaderContent&gt;RowPosition&lt;/RowHeaderContent&gt;&lt;RowHeaderWidth&gt;70&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;30&lt;/RowHeight&gt;&lt;HeaderFormatStyle&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/HeaderFormatStyle&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="ToolClinicalAudit.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>124, 17</value>
+  </metadata>
+  <data name="UpdateClinicalAudit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="BtnDeleteClinicalAudit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGLSURBVGhD7dm9SsNQGMbxB0dB7KAObnobjt6AoKPehB9j
+        BfGO3FTqt4PiIHRRcHcXXESIT+B9IJRSkvZ8yvlDSHIOTc6vLYVQlEql0v+oAuZugONHYMWGonUFbHPb
+        tNNuXQN9Qipuw5gYrmPnDPjh/vsWWLPh9l0Ci3zxU43h/v0BWLWpYPG+e7z/r72h+zbcvZgYZwgVA+Mc
+        oUJiRhAHNuyuEBjvCOUTEwyhfGCCI5RLTDSEcoGJjlCzYJJBqGkwySEUF9Zri+H8bpII1QaTPEJNwmSD
+        UOMw2SFUE3MOfGaJUDWGC/8wQMWHohObyquRr1Prn+akaiJ43Ofz9nN2mBHEoY31ssKMQ6gmhttbsphJ
+        CJU8pg1CJYvpglDJYaZBqGQwsyBUdIwLhIqGcYlQwTE+ECoYxidCeceEQChvmJAI5RwTA6GcYXihrfqf
+        IrvQqQ0H7Q5Y5r2HtoZXrmnJptrHd2PjAvjii49sKEr6ZLgfvADzNtyte2DdDqNWfzL8ai3YaalUKmUf
+        8AdAorKtOBs4WAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="BtnPrintClinicalAudit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG4SURBVEhL7VYxL0NRGD0xYLAwGQhhFwObgUXMLGw1kPgX
+        FnvThMQg9QPMVi0tEgMD0n8hsRrqnDhpXvte677XF1JxkpPe737fOd99t/e9XPyjE9fARg0opKE0lmcH
+        jSqdxgGsWJ4dWUwGszHFW+QV+eGpYEgj7Q2w6akw3ANTFF3UgW3y3dPBkEZaecjL073B4hOyTKFW/MqV
+        vzkVDGmklQfHZ+SxU92hLfIQl8AI4yeHwWDDx2dg2GGbZ1dEizjeI5tcfS0NpZHWNukb64n5Mdih2X4a
+        StPXE+eFbz1ZsFYFHvgfLXO8RB7kMZYnd2LVbeJgkU7gvMPcIE95O4yDqyrfAbMO+0ITGKLfkd5jecrb
+        qTjybMw/dZR+VR60hR9tHMVgNeaJnOb8XBp2fp9TN+brsMvTqK/QaUpKU7BN+sa3wAQNXhwGQxp6jTsM
+        alyiaJ2/0a3jg3+BuUXGh0lUzmXyqZMtD3uWnI5DK2NRkWxtG68SDaf1ikzSYDWJyrlM149G1IMscvUz
+        ToeBotY1hg1WGJ8nUTmXtWkyI2rCpxrTriRROZfl15hMusL2Yv+Nf+1C/8cAfAL4nVXOdZoPQwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="BtnListClientAudit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <metadata name="ErrorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>268, 17</value>
+  </metadata>
+</root>
