@@ -715,4 +715,24 @@ Public Class DashboardClientManagment
 
         End If
     End Sub
+
+    Private Sub BtnExportOldClient_Click(sender As Object, e As EventArgs) Handles BtnExportOldClient.Click
+        Dim SaveFile As New SaveFileDialog
+        SaveFile.Filter = "Excell(.xlsx)|*.xlsx|Win-Word(.docx)|*.docs|pdf-File(.pdf)|*.pdf"  ' Excell|*.xlsx || Win-Word|*.docs || PDF|*.pdf"
+        SaveFile.Title = "Export Files"
+        If SaveFile.ShowDialog = DialogResult.OK Then
+            Dim Filename = SaveFile.FileName
+            '' MessageBox.Show(Path.GetExtension(Filename))
+            If Path.GetExtension(Filename) = ".xlsx" Then
+                GridClientFollowupV1.ExportToXlsx(Filename)
+                Process.Start(Filename)
+            ElseIf Path.GetExtension(Filename) = ".docx" Then
+                GridClientFollowupV1.ExportToDocx(Filename)
+                Process.Start(Filename)
+            ElseIf Path.GetExtension(Filename) = ".pdf" Then
+                GridClientFollowupV1.ExportToPdf(Filename)
+                Process.Start(Filename)
+            End If
+        End If
+    End Sub
 End Class

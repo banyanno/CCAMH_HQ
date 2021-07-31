@@ -159,6 +159,7 @@ Partial Class DashboardClientManagment
         Me.UiTabPage2 = New Janus.Windows.UI.Tab.UITabPage()
         Me.SplitContainer5 = New System.Windows.Forms.SplitContainer()
         Me.SplitContainer6 = New System.Windows.Forms.SplitContainer()
+        Me.BtnExportOldClient = New System.Windows.Forms.Button()
         Me.GridClientFollowupV1 = New DevExpress.XtraGrid.GridControl()
         Me.GridViewFollowup = New DevExpress.XtraGrid.Views.Grid.GridView()
         Me.RowNo1 = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -411,7 +412,7 @@ Partial Class DashboardClientManagment
         '
         Me.BtnExportFile.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.BtnExportFile.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.BtnExportFile.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.BtnExportFile.ForeColor = System.Drawing.Color.Red
         Me.BtnExportFile.Location = New System.Drawing.Point(360, 58)
         Me.BtnExportFile.Name = "BtnExportFile"
         Me.BtnExportFile.Size = New System.Drawing.Size(196, 33)
@@ -1635,6 +1636,7 @@ Partial Class DashboardClientManagment
         '
         'SplitContainer6.Panel1
         '
+        Me.SplitContainer6.Panel1.Controls.Add(Me.BtnExportOldClient)
         Me.SplitContainer6.Panel1.Controls.Add(Me.GridClientFollowupV1)
         Me.SplitContainer6.Panel1.Controls.Add(Me.ToolStripClientFollowUp)
         '
@@ -1644,6 +1646,18 @@ Partial Class DashboardClientManagment
         Me.SplitContainer6.Size = New System.Drawing.Size(1958, 541)
         Me.SplitContainer6.SplitterDistance = 1703
         Me.SplitContainer6.TabIndex = 0
+        '
+        'BtnExportOldClient
+        '
+        Me.BtnExportOldClient.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.BtnExportOldClient.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.BtnExportOldClient.ForeColor = System.Drawing.Color.Maroon
+        Me.BtnExportOldClient.Location = New System.Drawing.Point(434, 61)
+        Me.BtnExportOldClient.Name = "BtnExportOldClient"
+        Me.BtnExportOldClient.Size = New System.Drawing.Size(196, 26)
+        Me.BtnExportOldClient.TabIndex = 25
+        Me.BtnExportOldClient.Text = "Export File"
+        Me.BtnExportOldClient.UseVisualStyleBackColor = True
         '
         'GridClientFollowupV1
         '
@@ -2840,5 +2854,6 @@ Partial Class DashboardClientManagment
     Friend WithEvents RepositoryItemCheckEdit11 As DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit
     Friend WithEvents NUMBER_VISIT As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents THERAPY_NAME As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents BtnExportOldClient As System.Windows.Forms.Button
 
 End Class
